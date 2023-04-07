@@ -16,6 +16,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 ---
 
+
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
@@ -51,6 +52,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
   * [Acknowledgments](#acknowledgments)
 
 ---
+
 
 ## User Experience (UX)
 
@@ -106,6 +108,9 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 * Take advantage of any loyalty programs or rewards offered by the cafe for frequent visitors.
 * Look forward to returning to Max_FPS as a place where they can both have fun and continue to grow their skills and relationships.
 
+--- 
+
+
 ## Design
 
 ### Colour Scheme
@@ -153,6 +158,9 @@ Click on the links below to see an large seperated image of each page.
 
 [Mobile Version Desin](assets/images/wireframe/WireFrame-mobile.png)
 
+--- 
+
+
 ## Features
 
 The website is comprised of six pages, four of which are accessible from the navigation menu (home page, about us page, gaming page & booking page). The last 2 pages is a "sign up" and "log in" which is shown in the navigation meny but cant access or use it.
@@ -178,6 +186,9 @@ I have been mindful during coding to ensure that the website is as accessible fr
 * Providing information for screen readers where there are icons used and no text.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 * Ensuring menus are accessible by marking the current page as current for screen readers.
+
+--- 
+
 
 ## Technologies Used
 
@@ -207,6 +218,9 @@ Google Dev Tools (Google Browser) - To troubleshoot and test features, solve iss
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+--- 
+
 
 ## Deployment & Local Development
 
@@ -243,9 +257,15 @@ To clone the PP1 repository:
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
+--- 
+
+
 ## Testing
 
 More information is coming during my process. Here will be displayed all the test i will perform during my deployment of the project.
+
+--- 
+
 
 ## Credits
 
@@ -271,3 +291,5 @@ More information will come, when my project are finished.
 
 * [Naoise Ganney](https://github.com/NaoiseGaffney), my Code Institute Mentor.
 
+
+--- 

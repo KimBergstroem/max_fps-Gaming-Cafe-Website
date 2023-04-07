@@ -1,4 +1,4 @@
-# Max_FPS Gaming Cafe
+# Max_FPS Gaming Cafe 🔴
 
 Visit the deployed site: [Max_fps Gaming Cafe](https://github.com/KimBergstroem/PP1)
 
@@ -17,7 +17,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 ---
 
 
-## CONTENTS
+## CONTENTS 🔴
 
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
@@ -54,7 +54,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 ---
 
 
-## User Experience (UX)
+## User Experience (UX) 🔴
 
 #### Key information for the site
 
@@ -111,7 +111,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 --- 
 
 
-## Design
+## Design 🔴
 
 ### Colour Scheme
 
@@ -161,7 +161,7 @@ Click on the links below to see an large seperated image of each page.
 --- 
 
 
-## Features
+## Features 🔴
 
 The website is comprised of six pages, four of which are accessible from the navigation menu (home page, about us page, gaming page & booking page). The last 2 pages is a "sign up" and "log in" which is shown in the navigation meny but cant access or use it.
 
@@ -190,7 +190,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 --- 
 
 
-## Technologies Used
+## Technologies Used 🔴
 
 
 ### Languages Used
@@ -222,7 +222,7 @@ Google Dev Tools (Google Browser) - To troubleshoot and test features, solve iss
 --- 
 
 
-## Deployment & Local Development
+## Deployment & Local Development 🔴
 
 Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
@@ -260,14 +260,14 @@ To clone the PP1 repository:
 --- 
 
 
-## Testing
+## Testing 🔴
 
 More information is coming during my process. Here will be displayed all the test i will perform during my deployment of the project.
 
 --- 
 
 
-## Credits
+## Credits 🔴
 
 The Credits section is where you can credit all the people and sources you used throughout your project.
 

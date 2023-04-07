@@ -1,6 +1,6 @@
 # Max_FPS Gaming Cafe
 
-
+Visit the deployed site: [Max_fps Gaming Cafe](https://github.com/KimBergstroem/PP1)
 
 Max_FPS is a premier gaming cafe that offers high-quality gaming experiences to its customers. Located in the heart of the city, Max_FPS is the go-to destination for gamers who want to immerse themselves in the latest computer games.
 
@@ -9,6 +9,10 @@ With a vast collection of games available, Max_FPS offers a diverse selection of
 In addition to its impressive collection of games, Max_FPS offers a comfortable and welcoming atmosphere for gamers. The cafe is spacious and well-lit, with plenty of seating and ample room to move around. The staff are friendly and knowledgeable, and always on hand to assist customers with any questions or concerns.
 
 Whether you're a seasoned gamer or a newcomer to the world of computer games, Max_FPS has something to offer everyone. With affordable prices and a commitment to customer satisfaction, Max_FPS is the perfect choice for gamers looking to enjoy a premium gaming experience in a relaxed and welcoming environment.
+
+![GitHub language count](https://img.shields.io/badge/HTML%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
+![GitHub top language](https://img.shields.io/badge/CSS%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
+![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
 
 ---
 
@@ -50,11 +54,57 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+#### Key information for the site
+
+* What is the current Games available and what to play.
+* What are the opening hours and how to book a place for gaming.
+* How to become a member and take part of the gaming community.
+* Be a part of tournaments, promotions, discount and events.
+* Updates on what is coming to Max_Fps Gaming Cafe in 2023.
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Client Goals
+
+* Provide high-quality gaming experiences to customers.
+* Offer a diverse selection of games to suit all tastes.
+* Ensure smooth and uninterrupted gameplay with top-of-the-line hardware.
+* Continuously improve services and offerings based on customer feedback.
+* Offer special promotions, events and tournaments to enhance customer experiences.
+* Establish Max_FPS as a premier gaming destination in the city.
+* Increase visibility and awareness of the cafe to attract new customers in all ages, young as old people.
+
+#### First Time Visitor Goals
+
+* Get assistance from the knowledgeable and friendly staff with any questions or concerns.
+* Feel comfortable and welcomed in the spacious and well-lit atmosphere.
+* Enjoy an affordable gaming experience.
+* Meet and connect with other gamers in the area.
+* Leave with a positive impression and desire to return for future gaming experiences.
+* Share their experience with friends or on social media to help spread awareness about the cafe.
+
+#### Returning Visitor Goals
+
+* Feel comfortable and welcomed in the familiar and inviting atmosphere.
+* Feel safe and secure in the environment provided by the cafe.
+* Establish a sense of community with other gamers who are also regulars at the cafe.
+* Participate in gaming events or tournaments and meet other gamers with similar interests.
+* Collaborate with other gamers to play co-op games or to form teams for competitive play.
+* Engage in friendly competition and develop healthy rivalries with other regulars.
+* Create a sense of belonging and feel like part of the Max_FPS gaming community.
+* Share gaming knowledge and skills with other gamers, and learn from them in return.
+* Look forward to returning to Max_FPS as a place where they can both have fun and feel like they are part of a welcoming and inclusive community.
+
+#### Frequent Visitor Goals
+
+* Become an expert in their favorite games and challenge themselves to improve their skills.
+* Maintain and strengthen relationships with the staff and other regulars at the cafe.
+* Participate in gaming events or tournaments regularly and compete against other skilled gamers.
+* Collaborate with other gamers to form teams for competitive play, and strive for excellence together.
+* Help new visitors feel welcome and share their knowledge of the games and the cafe with others.
+* Continuously provide feedback to the cafe about their experiences and suggest ways to improve the offerings and services.
+* Take advantage of any loyalty programs or rewards offered by the cafe for frequent visitors.
+* Look forward to returning to Max_FPS as a place where they can both have fun and continue to grow their skills and relationships.
 
 ## Design
 
@@ -124,29 +174,50 @@ I have been mindful during coding to ensure that the website is as accessible fr
 * Using semantic HTML elemts as, header(), section(), article(), footer(), nav(), details().
 * Declare the Language in the beginning of every html page.
 * Using descriptive ALT attributes on images and links on the site.
+* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button or not.
 * Providing information for screen readers where there are icons used and no text.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 * Ensuring menus are accessible by marking the current page as current for screen readers.
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+Hyper Text Markup Language (HTML) and Cascading Style Sheets (CSS) were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+[Balsamiq](https://balsamiq.cloud/) - Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+[Git](https://git-scm.com/) - For version control.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+[Github](https://www.github.com/) - To save and store the files for the website.
+
+[Google Fonts](https://fonts.google.com/) - To import the fonts used on the website.
+
+[Font Awesome](https://fontawesome.com/) - For the iconography on the website.
+
+Google Dev Tools (Google Browser) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Tiny PNG](https://tinypng.com/) To compress images.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+[Shields.io](https://shields.io/) To add badges to the README
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.com.
+2. Find the repository for this project, "PP1".
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
 ### Deployment
 
@@ -154,42 +225,49 @@ Include instructions here on how to deploy your project. For your first project 
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the PP1 repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, https://github.com/KimBergstroem/PP1.
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the PP1 repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, https://github.com/KimBergstroem/PP1.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+More information is coming during my process. Here will be displayed all the test i will perform during my deployment of the project.
 
 ## Credits
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
 The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+* I used this YouTube tutorial to learn how to create and play with the responsiveness of a website along with otherstuff as hover effect.
+
+[Kevin Powell](https://www.youtube.com/@KevinPowell)
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+More information will come, but for now im the only one writing the code.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+More informaiton will come.
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+More information will come, when my project are finished.
+
+* [Naoise Ganney](https://github.com/NaoiseGaffney), my Code Institute Mentor.
+

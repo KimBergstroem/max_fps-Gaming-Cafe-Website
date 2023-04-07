@@ -1,6 +1,6 @@
 # Max_FPS Gaming Cafe 🔴
 
-Visit the deployed site: [Max_fps Gaming Cafe](https://github.com/KimBergstroem/PP1)
+Visit the deployed site: [Max_fps Gaming Cafe](https://kimbergstroem.github.io/PP1/)
 
 Max_FPS is a premier gaming cafe that offers high-quality gaming experiences to its customers. Located in the heart of the city, Max_FPS is the go-to destination for gamers who want to immerse themselves in the latest computer games.
 

@@ -75,13 +75,15 @@ Google Fonts was used for the following fonts:
 
 * "Lato" is used for headings and bigger content on the site. It is a sans serif typeface family.
 
+![LatoBold700](assets/images/wireframe/LatoBold700.png)
+
 * "Poppins" is used for the body text, paragraphs on the site. It is a geometric, sans serif typeface family. Each letterform is nearly monolinear, with optical corrections applied to stroke joints where necessary to maintain an even typographic color.
+
+![PoppinsRegular400](assets/images/wireframe/PoppinsRegular400.png)
 
 ### Imagery
 
 All the images displayed in this site was originelly downloaded by the sites below, and modified in Photoshop.
-
-TEXT is coming later
 
 ### Wireframes
 
@@ -89,7 +91,7 @@ TEXT is coming later
 
 Wireframes were created for mobile and desktop. I used the webbapplication called [Balsamiq](https://balsamiq.cloud/suu74na/psiivfn/r6B57) for creating the wireframes for website Max_Fps Gaming Cafe.
 
-Click on the links below to see an seperated larger image of each page.
+Click on the links below to see an large seperated image of each page.
 
 [Home Page](assets/images/wireframe/WireFrame-Index.png)
 
@@ -103,31 +105,28 @@ Click on the links below to see an seperated larger image of each page.
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+The website is comprised of six pages, four of which are accessible from the navigation menu (home page, about us page, gaming page & booking page). The last 2 pages is a "sign up" and "log in" which is shown in the navigation meny but cant access or use it.
 
-This section can be used to explain what pages your site is made up of.
+* All Pages on the website have:
 
-### General features on each page
+  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is the two links for "sign up" and "Log in". In the middle of the navigation bar an image of Max_Fps logo together with the text "Internet Cafe" can be found. To the right of the navigation bar are the links to the websites pages (home, about, gaming and booking). When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+  * A footer which contains social media icon links to all the plattforms. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable. There will also be a logo in the footer, just to connect the navigation bar and footer together.
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
-
-### Future Implementations
-
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+* Future Implementations.
+  * Want to implement the "Sign up" function. Want to have a database were members can create membership and log in to have discounts, request points. Members should have their own profile, were they can see hours played etc.
+  * I want also to develop a more smoother booking system. Where the client/customer can see a map of all seats, computer available in the Gaming Cafe to click and book. Live updating booking system for better performance.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+* Using semantic HTML elemts as, header(), section(), article(), footer(), nav(), details().
+* Declare the Language in the beginning of every html page.
+* Using descriptive ALT attributes on images and links on the site.
+* Providing information for screen readers where there are icons used and no text.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring menus are accessible by marking the current page as current for screen readers.
 
 ## Technologies Used
 

@@ -58,41 +58,48 @@ Add your user stories here. You want to include first time visitors and returnin
 
 ## Design
 
-We wanted to choose colours that reflected the environment of dark and gaming, so we have chosen a variety of grey, red and browns for our site.
+### Colour Scheme
 
-<img src="assets/css/images/wireframe/colour-palette.png">
+![Max_Fps Gaming Cafe Website Colour Palette](assets/images/wireframe/colour-palette.png)
+
+We wanted to choose colours that reflected the environment of dark and gaming, so we have chosen a variety of grey, red and white for our site.
+
+This colors are going to be implemented as 60-30-10 rule with the base of the color GunMetal. We want to have a more dark theme on the website.
 
 The colour palette was created using the [Coolors website](https://coolors.co/aeffd8-8affc1-8fdc97-ac8887-9f4a54).
 
-### Colour Scheme
-
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
-
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+Google Fonts was used for the following fonts:
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
+* "Lato" is used for headings and bigger content on the site. It is a sans serif typeface family.
 
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+* "Poppins" is used for the body text, paragraphs on the site. It is a geometric, sans serif typeface family. Each letterform is nearly monolinear, with optical corrections applied to stroke joints where necessary to maintain an even typographic color.
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+All the images displayed in this site was originelly downloaded by the sites below, and modified in Photoshop.
+
+TEXT is coming later
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
+![Max_Fps Gaming Cafe Website Overview](assets/images/wireframe/OverviewPlanningReadme.png)
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+Wireframes were created for mobile and desktop. I used the webbapplication called [Balsamiq](https://balsamiq.cloud/suu74na/psiivfn/r6B57) for creating the wireframes for website Max_Fps Gaming Cafe.
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+Click on the links below to see an seperated larger image of each page.
+
+[Home Page](assets/images/wireframe/WireFrame-Index.png)
+
+[About us Page](assets/images/wireframe/WireFram-about.png)
+
+[Game Page](assets/images/wireframe/WireFrame-games.png)
+
+[Booking Page](assets/images/wireframe/WireFrame-booking.png)
+
+[Mobile Version Desin](assets/images/wireframe/WireFrame-mobile.png)
 
 ## Features
 

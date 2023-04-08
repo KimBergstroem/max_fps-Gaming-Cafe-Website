@@ -46,8 +46,8 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
- * [Bugs](#Bugs)
- * [Validation](#Validation)
+  * [Bugs](#Bugs)
+  * [Validation](#Validation)
 
 * [Credits](#credits)
   * [Code Used](#code-used)

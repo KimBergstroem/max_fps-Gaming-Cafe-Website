@@ -264,10 +264,11 @@ To clone the PP1 repository:
 
 ## Testing 🔴
 
-#### Buggs / Fails and errors
+### Buggs / Fails and errors
 
 Throughout the entire build, I conducted ongoing testing and utilized Chrome developer tools to identify and troubleshoot any issues as they arose.
 
+### Validation
 
 --- 
 

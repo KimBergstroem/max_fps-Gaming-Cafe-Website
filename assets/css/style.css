@@ -6,6 +6,7 @@
     --highlight-dark: #E54B4B;
     --highlight-light: #9F4A54;
     --white: #f0f0f0;
+    --black: #080808;
 }
 
 *{
@@ -25,7 +26,7 @@ html{
 
 body{
     background: var(--main-color);
-    background: linear-gradient(245.59deg, #202633 0%, #202633 28.53%, #2b3446 75.52%);
+    background: linear-gradient(245.59deg, #10131a 0%, #2b3446 28.53%, #323d52 75.52%);
     margin: 0;
     padding: 0;
     min-height: 100%;
@@ -42,6 +43,7 @@ h1,h2,h3,h4,h5{
 .logo{
     font-size: 2rem;
     text-transform: uppercase;
+    color: var(--white);
 }
 
 .logo span {

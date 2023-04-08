@@ -1,6 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
+
+:root {
+    --main-color: #293141;
+    --content-color: #788AA3;
+    --highlight-dark: #E54B4B;
+    --highlight-light: #9F4A54;
+    --white: #f0f0f0;
+}
+
 *{
     padding: 0;
     margin: 0;
+    border: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
     text-decoration: none;
+    line-height: 1.6;
 }
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background: var(--main-color);
+    background: linear-gradient(245.59deg, #202633 0%, #202633 28.53%, #2b3446 75.52%);
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* ---> HEADER AND NAVBAR STYLE STARTS HERE <--- */
+.logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.logo span {
+    color: var(--highlight-light);
+}
+
+nav {
+	position: fixed;
+	z-index: 999;
+    width: 100%;
+    height: 65px;
+    padding: 0 5%;
+    margin: 0 auto;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.nav-links {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav .nav-links a{
+	padding: 0.5em;
+	font-size: 0.8rem;
+    font-weight: bold;
+	color: var(--white);
+}
+
+nav .nav-links a:hover {
+	border-bottom: 1px solid var(--white);
+}
+nav .nav-links .active{
+	color: var(--highlight-light);
+}
+
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+
+nav .nav-icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+nav .nav-icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: var(--white);
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+	nav .nav-links {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 100px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: var(--main-color);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .nav-links a {
+		font-size: 20px;
+	}
+	nav :checked ~ .nav-links {
+		bottom: 0;
+	}
+	nav .nav-icon-burger {
+		display: block;
+	}
+    /* Animation for the burger */
+	nav :checked ~ .nav-icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .nav-icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .nav-icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+	
+}
+
+
+/* ---> CONTENT STYLE STARTS HERE <--- */
+.welcome-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    gap: 2rem;
+}
+.welcome-box {
+    margin: 100px 50px 10px 50px;
+}
+
+.welcome-box img {
+    opacity: 0.5;
+}
+
+.card{
+    margin: 10px;
+    padding: 10px;
+    color: var(--white);
+}
+.card h2{
+    margin-bottom: 10px;
+    color: var(--content-color);
+}
+
+.card button{
+    display: inline-block;
+    width: 40%;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: var(--highlight-dark);
+    color: var(--white);
+}
+
+/* ---> FOOTER STYLE STARTS HERE <--- */
+footer{
+    display: flex;
+    position: absolute;
+    background-color: var(--main-color);
+    color: var(--white);
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+footer .logo{
+    margin-right: 150px;
+    color: black;
+}
+
+footer li a {
+	padding: 0.5em;
+	font-size: 0.8rem;
+    font-weight: bold;
+	color: var(--white);
+}
+

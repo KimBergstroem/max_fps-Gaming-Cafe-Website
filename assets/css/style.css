@@ -258,11 +258,24 @@ footer{
         width: 50%;
         margin-bottom: 30px;
     }
+    .footer-row{
+        display:flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 10px;
+        width: 50%;
+    }
 }
 @media(max-width: 574px){
     .footer-col{
         width: 100%;
+        text-align: center;
     }
+    .footer-col h4::before{
+        display: none;
+
+    }
+    
 }
 /* ---> FOOTER STYLE ENDS HERE <--- */
 

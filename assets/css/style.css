@@ -1,40 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
 
 :root {
-    --main-color: #293141;
-    --content-color: #788AA3;
-    --highlight-dark: #E54B4B;
-    --highlight-light: #9F4A54;
-    --white: #f0f0f0;
-    --black: #080808;
+    --clr-accent-dark: hsl(0, 75%, 60%);
+    --clr-accent-light: hsl(353, 36%, 46%);
+
+    --clr-primary: hsl(220, 23%, 21%);
+
+    --clr-neutral: hsl(215, 19%, 55%);
+    --clr-neutral-white: hsl(0, 0%, 94%);
+    --clr-neutral-black: hsl(0, 0%, 3%);
 }
 
+/* Tips from this css reset https://andy-bell.co.uk/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
 *{
     padding: 0;
     margin: 0;
     border: 0;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style-type: none;
     text-decoration: none;
-    line-height: 1.6;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
 }
 
 html{
     height: 100%;
 }
 
+/* Set core body defaults */
 body{
-    background: var(--main-color);
+    background: var(--clr-primary);
     background: linear-gradient(245.59deg, #10131a 0%, #2b3446 28.53%, #323d52 75.52%);
     margin: 0;
     padding: 0;
-    min-height: 100%;
+    line-height: 1.6;
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
     display: flex;
     flex-direction: column;
 }
 
-h1,h2,h3,h4,h5{
+h1, h2, h3, h4, h5{
     font-family: 'Lato', sans-serif;
 }
 
@@ -43,11 +81,11 @@ h1,h2,h3,h4,h5{
 .logo{
     font-size: 2rem;
     text-transform: uppercase;
-    color: var(--white);
+    color: var(--clr-neutral-white);
 }
 
 .logo span {
-    color: var(--highlight-light);
+    color: var(--clr-accent-light);
 }
 
 nav {
@@ -60,24 +98,24 @@ nav {
 	background-color: rgba(0,0,0,0.3);
 }
 
-.nav-links {
+.nav-primary {
     display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
 
-nav .nav-links a{
+nav .nav-primary a{
 	padding: 0.5em;
 	font-size: 0.8rem;
     font-weight: bold;
-	color: var(--white);
+	color: var(--clr-neutral-white);
 }
 
-nav .nav-links a:hover {
-	border-bottom: 1px solid var(--white);
+nav .nav-primary a:hover {
+	border-bottom: 1px solid var(--clr-neutral-white);
 }
-nav .nav-links .active{
-	color: var(--highlight-light);
+nav .nav-primary .active{
+	color: var(--clr-accent-light);
 }
 
 #nav-toggle {
@@ -96,7 +134,7 @@ nav .nav-icon-burger {
 nav .nav-icon-burger .line {
 	width: 30px;
 	height: 5px;
-	background-color: var(--white);
+	background-color: var(--clr-neutral-white);
 	margin: 5px;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
@@ -104,7 +142,7 @@ nav .nav-icon-burger .line {
 
 /* Responsive  NAVBAR */
 @media screen and (max-width: 768px) {
-	nav .nav-links {
+	nav .nav-primary {
 		float: none;
 		position: fixed;
 		z-index: 9;
@@ -116,15 +154,15 @@ nav .nav-icon-burger .line {
 		height: auto;
 		flex-direction: column;
 		justify-content: space-evenly;
-		background-color: var(--main-color);
+		background-color: var(--clr-primary);
 		overflow: hidden;
 		box-sizing: border-box;
 		transition: all .5s ease-in-out;
 	}
-	nav .nav-links a {
+	nav .nav-primary a {
 		font-size: 20px;
 	}
-	nav :checked ~ .nav-links {
+	nav :checked ~ .nav-primary {
 		bottom: 0;
 	}
 	nav .nav-icon-burger {
@@ -145,48 +183,31 @@ nav .nav-icon-burger .line {
 /* ---> HEADER AND NAVBAR STYLE ENDS HERE <--- */
 
 
-/* ---> CONTENT/MAIN STYLE STARTS HERE <--- */
-.welcome-section{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: nowrap;
-    gap: 2rem;
+/* ---> MAIN STYLE STARTS HERE <--- */
+.container{
+    max-width: 1110px;
+    padding: 1.5rem;
+    margin-top: 10rem;
+    margin-inline: auto;
 }
-.welcome-box {
-    margin: 100px 50px 10px 50px;
-}
-
-.welcome-box img {
-    opacity: 0.5;
+.even-columns{
+    display: grid;
+    gap: 1rem;
 }
 
-.card{
-    margin: 10px;
-    padding: 10px;
-    color: var(--white);
-}
-.card h2{
-    margin-bottom: 10px;
-    color: var(--content-color);
+@media (min-width: 50rem){
+    .even-columns{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
 }
 
-.card button{
-    display: inline-block;
-    width: 40%;
-    font-size: 16px;
-    margin-top: 20px;
-    border-radius: 5px;
-    background-color: var(--highlight-dark);
-    color: var(--white);
-}
-/* ---> CONTENT/MAIN STYLE ENDS HERE <--- */
+/* ---> MAIN STYLE ENDS HERE <--- */
 
 
 /* ---> FOOTER STYLE STARTS HERE <--- */
 footer{
-    background-color: var(--main-color);
+    background-color: var(--clr-primary);
     padding: 70px 0;
     margin-top: auto;
 }
@@ -210,7 +231,7 @@ footer{
     position: relative;
     margin-bottom: 35px;
     font-size: 18px;
-    color: var(--white);
+    color: var(--clr-neutral-white);
     text-transform: capitalize;
 }
 .footer-col h4::before{
@@ -218,7 +239,7 @@ footer{
     position: absolute;
     left:0;
     bottom: -10px;
-    background-color: var(--highlight-light);
+    background-color: var(--clr-accent-light);
     height: 2px;
     width: 50px;
 }
@@ -228,18 +249,18 @@ footer{
 }
 .footer-col ul li a{
     display: block;
-    color: var(--content-color);
+    color: var(--clr-neutral);
     transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-    color: var(--content-color);
+    color: var(--clr-neutral);
     padding-left: 8px;
 }
 
 .footer-col .footer-social-links a{
     display: inline-block;
-    color: var(--white);
-    background-color: var(--highlight-light);
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-accent-light);
     height: 40px;
     width: 40px;
     margin: 0 10px 10px 0;
@@ -250,12 +271,12 @@ footer{
     transition: all 0.5s ease;
 }
 .footer-col .footer-social-links a:hover{
-    color: var(--main-color);
-    background-color: var(--white);
+    color: var(--clr-primary);
+    background-color: var(--clr-neutral-white);
 }
 
 /* Responsive FOOTER */
-@media(max-width: 800px){
+@media(max-width: 50rem){
     .footer-col{
         width: 50%;
         margin-bottom: 30px;
@@ -268,7 +289,7 @@ footer{
         width: 50%;
     }
 }
-@media(max-width: 574px){
+@media(max-width: 35.875rem){
     .footer-col{
         width: 100%;
         text-align: center;

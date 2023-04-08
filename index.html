@@ -22,11 +22,11 @@
 
     <!-- Header section STARTS HERE -->
     <header>
-        <nav>
+        <nav aria-label="Primary Navigation">
             <!-- Hamburger Function -->
             <input id="nav-toggle" type="checkbox">
             <!-- Navbar links -->
-            <ul class="nav-links">
+            <ul role="list" class="nav-primary">
                 <li><a href="#">Log In</a></li>
                 <li><a href="#">Sign In</a></li>
 
@@ -49,23 +49,25 @@
     </header>
     <!-- Header section ENDS HERE -->
 
-
-    <section id="home" class="welcome-section">
-        <div class="welcome-box">
-            <img src="assets/images/banner-image.png" class="welcome-image" alt="Gaming picture" width="600px"
-                height="600px">
-        </div>
-        <div class="welcome-box">
-            <div class="card">
-                <h2>Book your seat now!</h2>
-                <p>Be sure to book your seat in advance! By reserving your spot ahead of time, you can guarantee that
-                    you'll have a spot to play your favorite games with your friends.</p>
-                <button aria-label="Book your seat">Click Here!</button>
+    <main>
+        <section>
+          <div class="container">
+            <div class="even-columns">
+              <div>
+                <h1>Bring everyone
+                  together to play <br>   
+                  with confidence!</h1>
+                <p>Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in
+                  view.</p>
+                <button class="button">Book now</button>
+              </div>
+              <div>
+                <img src="assets/images/icon-maxfps.png" alt="Gaming Picture">
+              </div>
             </div>
-
-        </div>
-    </section>
-
+          </div>
+        </section>
+    </main>
 
     <!-- Footer Section STARTS HERE -->
     <footer>
@@ -73,7 +75,7 @@
             <div class="footer-row">
                 <div class="footer-col">
                     <h4>Links</h4>
-                    <ul>
+                    <ul role="List" aria-label="Webpage Links">
                         <li><a href="#home">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="games.html">Games</a></li>
@@ -83,7 +85,7 @@
 
                 <div class="footer-col">
                     <h4>Support</h4>
-                    <ul>
+                    <ul role="List" aria-label="Support links">
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Rapport</a></li>
                         <li><a href="#">Terms and Condition</a></li>
@@ -94,7 +96,7 @@
 
                 <div class="footer-col">
                     <h4>Centers</h4>
-                    <ul>
+                    <ul role="List" aria-label="Gaming Centers">
                         <li><a href="#">Sweden</a></li>
                         <li><a href="#">Spain</a></li>
                         <li><a href="#">Germany</a></li>
@@ -105,11 +107,11 @@
 
                 <div class="footer-col">
                     <h4>Social</h4>
-                    <div class="footer-social-links">
-                        </li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
-                        </li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
-                        </li><a href="#"><i class="fa-brands fa-square-reddit"></i></a></li>
-                        </li><a href="#"><i class="fa-brands fa-twitch"></i></a></li>
+                    <div role="navigation" aria-label="Social Links" class="footer-social-links">
+                        <a aria-label="instagram" href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a aria-label="facebook" href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a aria-label="reddit" href="#"><i class="fa-brands fa-square-reddit"></i></a>
+                        <a aria-label="twitch" href="#"><i class="fa-brands fa-twitch"></i></a>
                     </div>
                 </div>
             </div>

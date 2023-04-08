@@ -177,35 +177,77 @@ nav .nav-icon-burger .line {
 }
 
 /* ---> FOOTER STYLE STARTS HERE <--- */
-footer{
-    display: flex;
-    position: absolute;
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+
+.footer{
     background-color: var(--main-color);
-    color: var(--white);
-    bottom: 0;
-    width: 100%;
-    height: 150px;
+    padding: 70px 0;
+}
+
+.row{
+    display:flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: var(--white);
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: var(--highlight-light);
+    height: 2px;
+    width: 50px;
 }
 
-footer .logo{
-    margin-right: 150px;
-    color: black;
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+
+}
+.footer-col ul li a{
+    color: var(--content-color);
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: var(--content-color);
+    padding-left: 8px;
 }
 
-footer li a {
-	padding: 0.5em;
-	font-size: 0.8rem;
-    font-weight: bold;
-	color: var(--white);
+.footer-col .social-links a{
+    display: inline-block;
+    color: var(--white);
+    height: 40px;
+    width: 40px;
+    background-color: var(--highlight-light);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:var(--white);
+    transition: all 0.5s ease;
 }
-footer li a {
-	padding: 0.5em;
-	font-size: 0.8rem;
-    font-weight: bold;
-	color: var(--white);
+.footer-col .social-links a:hover{
+    color: var(--main-color);
+    background-color: var(--white);
 }
+
+@media(max-width: 767px){
+
+}
+
+
 

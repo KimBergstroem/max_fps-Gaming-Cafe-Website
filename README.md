@@ -1,5 +1,7 @@
 # Max_FPS Gaming Cafe 🔴
 
+![Max_Fps Gaming Cafe Website Responsiveness](assets/images/wireframe/Responsive-overview.png)
+
 Visit the deployed site: [Max_fps Gaming Cafe](https://kimbergstroem.github.io/PP1/)
 
 Max_FPS is a premier gaming cafe that offers high-quality gaming experiences to its customers. Located in the heart of the city, Max_FPS is the go-to destination for gamers who want to immerse themselves in the latest computer games.
@@ -262,7 +264,9 @@ To clone the PP1 repository:
 
 ## Testing 🔴
 
-More information is coming during my process. Here will be displayed all the test i will perform during my deployment of the project.
+#### Buggs / Fails and errors
+
+
 
 --- 
 

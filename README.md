@@ -46,8 +46,8 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
-* * [Bugs](#Bugs)
-* * [Validation](#validation)
+ * [Bugs](#Bugs)
+ * [Validation](#Validation)
 
 * [Credits](#credits)
   * [Code Used](#code-used)
@@ -266,7 +266,7 @@ To clone the PP1 repository:
 
 ## Testing 🔴
 
-### Buggs / Fails and errors
+### Buggs
 
 Throughout the entire build, I conducted ongoing testing and utilized Chrome developer tools to identify and troubleshoot any issues as they arose.
 

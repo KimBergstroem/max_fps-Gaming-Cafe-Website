@@ -201,15 +201,9 @@ nav .nav-icon-burger .line {
     gap: 1rem;
 }
 .even-columns div h1{
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
     color: var(--clr-neutral);
-}
-.even-columns div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
 }
 
 @media (min-width: 50rem){
@@ -230,11 +224,53 @@ nav .nav-icon-burger .line {
     padding: .2rem 0;
     box-shadow: var(--clr-neutral-black) 0px 20px 30px -10px;
 }
+
 .button:hover {
     background-color: var(--clr-neutral-white);
     color: var(--clr-neutral-black);
     transition: all 0.5s ease;
     font-weight: bold;
+}
+
+.card{
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-neutral);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .438rem;
+    box-shadow: .125rem;
+    text-align: center;
+}
+.card h2{
+    color:var(--clr-neutral-white);
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.header-latestnews{
+    margin: 5rem 0 2rem 0;
+}
+.header-latestnews h2{
+    position: relative;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 2rem;
+    color: var(--clr-neutral-white);
+    text-transform: capitalize;
+}
+.header-latestnews h2::before{
+    content: '';
+    position: absolute;
+    left:50;
+    bottom: -10px;
+    background-color: var(--clr-accent-light);
+    height: 2px;
+    width: 11.8rem;
+}
+.even-columns div img{
+    max-width: 100%;
+    max-height:100%;
 }
 
 /* ---> MAIN STYLE ENDS HERE <--- */
@@ -258,7 +294,7 @@ footer{
 }
 
 .footer-col{
-    width: 25%;
+    width: 20%;
     padding: 0 15px;
 }
 

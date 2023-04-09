@@ -63,6 +63,8 @@ html{
 body{
     background: var(--clr-primary);
     background-image: linear-gradient(to bottom right, #2b3446, #10131a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
     line-height: 1.6;

@@ -323,6 +323,13 @@ footer{
     padding: 0 15px;
 }
 
+/* Target the only p element under my image col in footer */
+.footer-col > p {
+    font-size: .8rem;
+    text-align: center;
+    color: var(--clr-neutral);
+}
+
 .footer-col h4{
     position: relative;
     margin-bottom: 35px;

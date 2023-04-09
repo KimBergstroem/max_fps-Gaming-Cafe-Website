@@ -234,6 +234,7 @@ nav .nav-icon-burger .line {
     }
 }
 
+/* Only for index.html home page main content */
 .button {
     cursor: pointer;
     background-color: var(--clr-accent-dark);
@@ -255,12 +256,20 @@ nav .nav-icon-burger .line {
 
 .card{
     color: var(--clr-neutral-white);
-    background-color: var(--clr-neutral);
+    background-color: var(--clr-primary);
     padding: 1rem;
     margin: 1rem;
     border-radius: .438rem;
     box-shadow: .125rem;
     text-align: center;
+    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.7),
+            1px 2px 4px 0px rgba(255, 255, 255, 0.7),
+            2px 4px 8px 0px rgba(255, 255, 255, 0.7),
+            2px 4px 16px 0px rgba(255, 255, 255, 0.7);
+}
+
+.card .highlight{
+    color: var(--clr-accent-light);
 }
 
 .card h2{
@@ -297,7 +306,6 @@ nav .nav-icon-burger .line {
     max-width: 100%;
     max-height:100%;
 }
-
 /* ---> MAIN STYLE ENDS HERE <--- */
 
 

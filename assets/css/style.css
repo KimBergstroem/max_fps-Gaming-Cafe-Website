@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
 
 :root {
-    --clr-accent-dark: hsl(0, 75%, 60%);
+    --clr-accent-dark: hsl(0, 72%, 56%);
     --clr-accent-light: hsl(353, 36%, 46%);
 
     --clr-primary: hsl(220, 23%, 21%);
@@ -62,7 +62,7 @@ html{
 /* Set core body defaults */
 body{
     background: var(--clr-primary);
-    background: linear-gradient(245.59deg, #10131a 0%, #2b3446 28.53%, #323d52 75.52%);
+    background-image: linear-gradient(to bottom right, #2b3446, #10131a);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -74,6 +74,10 @@ body{
 
 h1, h2, h3, h4, h5{
     font-family: 'Lato', sans-serif;
+}
+
+p{
+    color: var(--clr-neutral-white);
 }
 
 
@@ -187,12 +191,23 @@ nav .nav-icon-burger .line {
 .container{
     max-width: 1110px;
     padding: 1.5rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-inline: auto;
 }
 .even-columns{
     display: grid;
     gap: 1rem;
+}
+.even-columns div h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--clr-neutral);
+}
+.even-columns div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
 
 @media (min-width: 50rem){
@@ -200,6 +215,24 @@ nav .nav-icon-burger .line {
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
     }
+}
+
+.button {
+    cursor: pointer;
+    background-color: var(--clr-accent-dark);
+    color: var(--clr-neutral-white);
+    border-radius: 1rem;
+    font-weight: bold;
+    width: 12rem;
+    margin: 1rem 0;
+    padding: .2rem 0;
+    box-shadow: var(--clr-neutral-black) 0px 20px 30px -10px;
+}
+.button:hover {
+    background-color: var(--clr-neutral-white);
+    color: var(--clr-neutral-black);
+    transition: all 0.5s ease;
+    font-weight: bold;
 }
 
 /* ---> MAIN STYLE ENDS HERE <--- */

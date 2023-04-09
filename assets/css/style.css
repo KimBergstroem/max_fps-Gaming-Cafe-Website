@@ -89,20 +89,11 @@ p{
     text-transform: uppercase;
     color: var(--clr-neutral-white);
 }
-
 .logo span {
     color: var(--clr-accent-light);
 }
 .logo2{
     display: none;
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: var(--clr-neutral-white);
-}
-
-.logo2 span {
-    display: none;
-    color: var(--clr-accent-light);
 }
 
 nav {
@@ -195,21 +186,21 @@ nav .nav-icon-burger .line {
 	nav :checked ~ .nav-icon-burger .line:nth-child(2) {
 		opacity: 0;
 	}
+
     .logo{
         display: none;
     }
+
 	.logo2{
-        display: block;
+        display: flex;
         font-size: 2rem;
-        position: absolute;
-        top: 0;
-        left: 0;
+        margin: 0 auto;
+        padding: auto;
+        justify-content: center;
         text-transform: uppercase;
         color: var(--clr-neutral-white);
     }
-    
     .logo2 span {
-        display: inline-block;
         color: var(--clr-accent-light);
     }
 }
@@ -339,6 +330,19 @@ footer{
     color: var(--clr-neutral-white);
     text-transform: capitalize;
 }
+
+.footer-col .footer-hours p {
+    color: var(--clr-neutral);
+    font-weight: bold;
+}
+.footer-col .footer-hours li {
+    margin-bottom: .5rem;
+}
+.footer-col .footer-hours span{
+    color: var(--clr-accent-light);
+    font-weight: bold;
+}
+
 /* ---> Making the red line below the text <--- */
 .footer-col h4::before{
     content: '';

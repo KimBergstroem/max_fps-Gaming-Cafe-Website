@@ -93,6 +93,17 @@ p{
 .logo span {
     color: var(--clr-accent-light);
 }
+.logo2{
+    display: none;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--clr-neutral-white);
+}
+
+.logo2 span {
+    display: none;
+    color: var(--clr-accent-light);
+}
 
 nav {
 	position: fixed;
@@ -146,15 +157,15 @@ nav .nav-icon-burger .line {
 	transition: all .3s ease-in-out;
 }
 
-/* Responsive  NAVBAR */
-@media screen and (max-width: 768px) {
+/* Responsive  NAVBAR - Breakpoint at 800px */
+@media screen and (max-width: 50rem) {
 	nav .nav-primary {
 		float: none;
 		position: fixed;
 		z-index: 9;
 		left: 0;
 		right: 0;
-		top: 100px;
+		top: 65px;
 		bottom: 100%;
 		width: auto;
 		height: auto;
@@ -166,7 +177,7 @@ nav .nav-icon-burger .line {
 		transition: all .5s ease-in-out;
 	}
 	nav .nav-primary a {
-		font-size: 20px;
+		font-size: 1.25rem;
 	}
 	nav :checked ~ .nav-primary {
 		bottom: 0;
@@ -184,28 +195,44 @@ nav .nav-icon-burger .line {
 	nav :checked ~ .nav-icon-burger .line:nth-child(2) {
 		opacity: 0;
 	}
-	
+	.logo2{
+        display: block;
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-transform: uppercase;
+        color: var(--clr-neutral-white);
+    }
+    
+    .logo2 span {
+        display: inline-block;
+        color: var(--clr-accent-light);
+    }
 }
 /* ---> HEADER AND NAVBAR STYLE ENDS HERE <--- */
 
 
 /* ---> MAIN STYLE STARTS HERE <--- */
 .container{
-    max-width: 1110px;
+    max-width: 1170px;
     padding: 1.5rem;
     margin-top: 5rem;
     margin-inline: auto;
 }
+
 .even-columns{
     display: grid;
     gap: 1rem;
 }
+
 .even-columns div h1{
     font-size: 3rem;
     margin-bottom: 1rem;
     color: var(--clr-neutral);
 }
 
+/* Breakpoint at 800px */
 @media (min-width: 50rem){
     .even-columns{
         grid-auto-flow: column;
@@ -241,6 +268,7 @@ nav .nav-icon-burger .line {
     box-shadow: .125rem;
     text-align: center;
 }
+
 .card h2{
     color:var(--clr-neutral-white);
     font-size: 1.5rem;
@@ -251,6 +279,7 @@ nav .nav-icon-burger .line {
 .header-latestnews{
     margin: 5rem 0 2rem 0;
 }
+
 .header-latestnews h2{
     position: relative;
     text-align: center;
@@ -259,14 +288,16 @@ nav .nav-icon-burger .line {
     color: var(--clr-neutral-white);
     text-transform: capitalize;
 }
+
+/* ---> Making the red line below the text <--- */
 .header-latestnews h2::before{
     content: '';
     position: absolute;
-    left:50;
+    left: 50;
     bottom: -10px;
     background-color: var(--clr-accent-light);
     height: 2px;
-    width: 11.8rem;
+    width: 13rem;
 }
 .even-columns div img{
     max-width: 100%;
@@ -301,10 +332,11 @@ footer{
 .footer-col h4{
     position: relative;
     margin-bottom: 35px;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--clr-neutral-white);
     text-transform: capitalize;
 }
+/* ---> Making the red line below the text <--- */
 .footer-col h4::before{
     content: '';
     position: absolute;
@@ -336,7 +368,7 @@ footer{
     width: 40px;
     margin: 0 10px 10px 0;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 40px;
     border-radius: 50%;
     transition: all 0.5s ease;
@@ -346,7 +378,7 @@ footer{
     background-color: var(--clr-neutral-white);
 }
 
-/* Responsive FOOTER */
+/* Responsive FOOTER - Breakpoint at 800px */
 @media(max-width: 50rem){
     .footer-col{
         width: 50%;
@@ -360,6 +392,7 @@ footer{
         width: 50%;
     }
 }
+/* Breakpoint at 574px */
 @media(max-width: 35.875rem){
     .footer-col{
         width: 100%;

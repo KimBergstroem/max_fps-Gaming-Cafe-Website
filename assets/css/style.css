@@ -219,6 +219,7 @@ nav .nav-icon-burger .line {
 .main-cover-text, .main-cover-text h2{
     color: var(--clr-neutral-white);
 }
+
 .main-cover-text{
     font-size: 130%;
     text-transform: uppercase;
@@ -234,6 +235,7 @@ nav .nav-icon-burger .line {
     right: 150px;
     position: absolute;
 }
+
 .main-image{
     width: 100%;
     height: 37.5rem;
@@ -250,6 +252,11 @@ nav .nav-icon-burger .line {
     animation-fill-mode: forwards;
 }
 
+@media(max-width: 50rem){
+    .main-cover-text{
+            left: 0;
+        } 
+}
 /* Create the level of zoom for main image 
 Taken from my other project "Love Running"*/
 @keyframes main-zoom{
@@ -269,10 +276,13 @@ Taken from my other project "Love Running"*/
 }
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    background-color: #2196F3;
-    padding: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.625rem;
+    padding: 0.625rem;
+}
+.grid-container .col-item img:hover{
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 

@@ -243,14 +243,16 @@ nav .nav-icon-burger .line {
     center / cover
     no-repeat;
 
-    /* animates zoom effect to loading page */
-    animation-name: hero-zoom;
+    /* animates zoom effect to loading page 
+    Taken from my other project "Love Running"*/
+    animation-name: main-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
-/* Create the level of zoom for hero image */
-@keyframes hero-zoom{
+/* Create the level of zoom for main image 
+Taken from my other project "Love Running"*/
+@keyframes main-zoom{
     from{
         transform: scale(1);
     }
@@ -275,6 +277,14 @@ nav .nav-icon-burger .line {
     font-size: 3rem;
     margin-bottom: 1rem;
     color: var(--clr-neutral);
+}
+.article{
+    letter-spacing: .05em
+}
+.article h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--clr-accent-light);
 }
 
 /* Breakpoint at 800px */

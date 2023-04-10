@@ -267,6 +267,14 @@ Taken from my other project "Love Running"*/
     margin-top: 5rem;
     margin-inline: auto;
 }
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
 
 .even-columns{
     display: grid;
@@ -323,10 +331,10 @@ Taken from my other project "Love Running"*/
     border-radius: .438rem;
     box-shadow: .125rem;
     text-align: center;
-    box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.7),
-            1px 2px 4px 0px rgba(255, 255, 255, 0.7),
-            2px 4px 8px 0px rgba(255, 255, 255, 0.7),
-            2px 4px 16px 0px rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 1px 2px 0px rgba(94, 47, 47, 0.7),
+            1px 2px 4px 0px rgba(94, 47, 47, 0.7),
+            2px 4px 8px 0px rgba(94, 47, 47, 0.7),
+            2px 4px 16px 0px rgba(94, 47, 47, 0.7);
 }
 
 .card .highlight{

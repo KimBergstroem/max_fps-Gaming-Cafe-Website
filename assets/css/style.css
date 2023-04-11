@@ -275,6 +275,7 @@ Taken from my other project "Love Running"*/
     margin-top: 5rem;
     margin-inline: auto;
 }
+/* For the Game page Grid layout */
 .grid-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -388,46 +389,12 @@ Taken from my other project "Love Running"*/
     height: 2px;
     width: 13rem;
 }
+
 .even-columns div img{
     max-width: 100%;
-    max-height:100%;
+    max-height: 100%;
 }
 
-/* Only for Booking.html page here */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    color: var(--clr-neutral-white);
-    background-color: var(--clr-neutral);
-
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: var(--clr-accent-dark);
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    float: right;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: var(--clr-neutral-white);
-  }
-  
-  .container-form {
-    border-radius: 5px;
-    color: var(--clr-neutral-white);
-    background-color: var(--clr-neutraldark);
-    padding: 20px;
-    margin: auto;
-  }
 /* ---> MAIN STYLE ENDS HERE <--- */
 
 

@@ -7,6 +7,7 @@
     --clr-primary: hsl(220, 23%, 21%);
 
     --clr-neutral: hsl(214, 19%, 55%);
+    --clr-neutraldark: hsl(214, 23%, 46%);
     --clr-neutral-white: hsl(0, 0%, 94%);
     --clr-neutral-black: hsl(0, 0%, 3%);
 }
@@ -391,6 +392,42 @@ Taken from my other project "Love Running"*/
     max-width: 100%;
     max-height:100%;
 }
+
+/* Only for Booking.html page here */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-neutral);
+
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: var(--clr-accent-dark);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    float: right;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--clr-neutral-white);
+  }
+  
+  .container-form {
+    border-radius: 5px;
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-neutraldark);
+    padding: 20px;
+    margin: auto;
+  }
 /* ---> MAIN STYLE ENDS HERE <--- */
 
 

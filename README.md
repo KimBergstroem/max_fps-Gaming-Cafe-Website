@@ -284,7 +284,13 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 #### Lighthouse Report
 
+To assess the website's performance, accessibility, best practices, and SEO, I employed Lighthouse as part of the Chrome Developer Tools.
+
 ![Lighthouse 90%](assets/images/readme/validation/image-lighthouse.png)
+
+#### Full Testing
+
+Friends and family were enlisted to conduct further tests on different devices and screen sizes, and they reported no problems during gameplay.
 
 
 ## Credits 🔴

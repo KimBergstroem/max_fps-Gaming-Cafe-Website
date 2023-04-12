@@ -178,6 +178,9 @@ nav .nav-icon-burger .line {
 	nav .nav-icon-burger {
 		display: block;
 	}
+    nav .nav-icon-burger .line {
+		display: block;
+	}
     /* Animation for the burger */
 	nav :checked ~ .nav-icon-burger .line:nth-child(1) {
 		transform: translateY(10px) rotate(225deg);

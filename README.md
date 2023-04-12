@@ -1,6 +1,6 @@
 # Max_FPS Gaming Cafe 🔴
 
-![Max_Fps Gaming Cafe Website Responsiveness](assets/images/wireframe/Responsive-overview.png)
+![Max_Fps Gaming Cafe Website Responsiveness](assets/images/readme/Responsive-overview.png)
 
 Visit the deployed site: [Max_fps Gaming Cafe](https://kimbergstroem.github.io/PP1/)
 
@@ -66,15 +66,14 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 * What are the opening hours and how to book a place for gaming.
 * How to become a member and take part of the gaming community.
 * Be a part of tournaments, promotions, discount and events.
-* Updates on what is coming to Max_Fps Gaming Cafe in 2023.
+* Contact information and were Max_Fps gaming cafe are.
 
 ### User Stories
 
 #### Client Goals
 
-* Provide high-quality gaming experiences to customers.
-* Offer a diverse selection of games to suit all tastes.
-* Ensure smooth and uninterrupted gameplay with top-of-the-line hardware.
+* To be able to view the site on a range of device sizes.
+* To make it easy to register as a member.
 * Continuously improve services and offerings based on customer feedback.
 * Offer special promotions, events and tournaments to enhance customer experiences.
 * Establish Max_FPS as a premier gaming destination in the city.
@@ -82,12 +81,10 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 #### First Time Visitor Goals
 
-* Get assistance from the knowledgeable and friendly staff with any questions or concerns.
-* Feel comfortable and welcomed in the spacious and well-lit atmosphere.
-* Enjoy an affordable gaming experience.
-* Meet and connect with other gamers in the area.
-* Leave with a positive impression and desire to return for future gaming experiences.
-* Share their experience with friends or on social media to help spread awareness about the cafe.
+* Feel comfortable and welcomed in the spacious and well-lit gaming atmosphere.
+* Navigate the site easily to find information as booking, opening hours and contact information.
+* Leave with a positive impression and desire to return.
+* Easily take part of any tournamnet or promotion.
 
 #### Returning Visitor Goals
 
@@ -119,7 +116,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 ### Colour Scheme
 
-![Max_Fps Gaming Cafe Website Colour Palette](assets/images/wireframe/colour-palette.png)
+![Max_Fps Gaming Cafe Website Colour Palette](assets/images/readme/colour-palette.png)
 
 We wanted to choose colours that reflected the environment of dark and gaming, so we have chosen a variety of grey, red and white for our site.
 
@@ -134,11 +131,11 @@ Google Fonts was used for the following fonts:
 
 * "Lato" is used for headings and bigger content on the site. It is a sans serif typeface family.
 
-![LatoBold700](assets/images/wireframe/LatoBold700.png)
+![LatoBold700](assets/images/readme/LatoBold700.png)
 
 * "Poppins" is used for the body text, paragraphs on the site. It is a geometric, sans serif typeface family. Each letterform is nearly monolinear, with optical corrections applied to stroke joints where necessary to maintain an even typographic color.
 
-![PoppinsRegular400](assets/images/wireframe/PoppinsRegular400.png)
+![PoppinsRegular400](assets/images/readme/PoppinsRegular400.png)
 
 ### Imagery
 
@@ -146,7 +143,7 @@ All the images displayed in this site was originelly downloaded by the sites bel
 
 ### Wireframes
 
-![Max_Fps Gaming Cafe Website Overview](assets/images/wireframe/OverviewPlanningReadme.png)
+![Max_Fps Gaming Cafe Website Overview](assets/images/readme/OverviewPlanningReadme.png)
 
 Wireframes were created for mobile and desktop. I used the webbapplication called [Balsamiq](https://balsamiq.cloud/suu74na/psiivfn/r6B57) for creating the wireframes for website Max_Fps Gaming Cafe.
 
@@ -167,13 +164,15 @@ Click on the links below to see an large seperated image of each page.
 
 ## Features 🔴
 
-The website is comprised of six pages, four of which are accessible from the navigation menu (home page, about us page, gaming page & booking page). The last 2 pages is a "sign up" and "log in" which is shown in the navigation meny but cant access or use it.
+The website is comprised of seven pages, four of which are accessible from the navigation menu (home page, about us page, games page & booking page). The last 3 pages are a "sign up", "log in" and "hours & pricing" which is shown in the navigation meny but cant access or use it.
 
 * All Pages on the website have:
+  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is the two links for "sign up" and "Log in". In the middle of the navigation bar an image of Max_Fps logo.. To the right of the navigation bar are the links to the websites pages (home, about, games, pricing and booking). When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
+  ![Navigation bar](assets/images/readme/image-navigationbar.png)
+  ![Navigation bar](assets/images/readme/image-navhamburger.png)
 
-  * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is the two links for "sign up" and "Log in". In the middle of the navigation bar an image of Max_Fps logo together with the text "Internet Cafe" can be found. To the right of the navigation bar are the links to the websites pages (home, about, gaming and booking). When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
-
-  * A footer which contains social media icon links to all the plattforms. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable. There will also be a logo in the footer, just to connect the navigation bar and footer together.
+  * A footer which contains social media icon links to all the plattforms along with other importent links as companys policy and regulation. There is also an company logo which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable and attract more young audience. The footer is also including the opening hours as this information are crusial for the user experience. Important information are in the footer.
+  ![Footer bar](assets/images/readme/image-footer.png)
 
 * Future Implementations.
   * Want to implement the "Sign up" function. Want to have a database were members can create membership and log in to have discounts, request points. Members should have their own profile, were they can see hours played etc.
@@ -272,7 +271,15 @@ Throughout the entire build, I conducted ongoing testing and utilized Chrome dev
 
 ### Validation
 
---- 
+
+#### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* [Index.html](docs/testing/w3c/w3cindex.png)
+* [Aboutus.html](docs/testing/w3c/w3cbooks.png)
+* [Games.html](docs/testing/w3c/w3ccontact.png)
+* [Booking.html](docs/testing/w3c/w3cthankyou.png)
 
 
 ## Credits 🔴

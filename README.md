@@ -276,7 +276,7 @@ Throughout the entire build, I conducted ongoing testing and utilized Chrome dev
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index.html](docs/testing/w3c/w3cindex.png)
+* [Index.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkimbergstroem.github.io%2FPP1%2Findex.html)
 * [Aboutus.html](docs/testing/w3c/w3cbooks.png)
 * [Games.html](docs/testing/w3c/w3ccontact.png)
 * [Booking.html](docs/testing/w3c/w3cthankyou.png)

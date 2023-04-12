@@ -290,7 +290,7 @@ To assess the website's performance, accessibility, best practices, and SEO, I e
 
 #### Full Testing
 
-Friends and family were enlisted to conduct further tests on different devices and screen sizes, and they reported no problems during gameplay.
+Friends and family were enlisted to conduct further tests on different devices and screen sizes, and they reported no problems during testing.
 
 
 ## Credits 🔴

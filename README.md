@@ -284,7 +284,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 #### Lighthouse Report
 
-![Lighthouse 100%](assets/images/readme/validation/image-lighthouse.png)
+
 
 
 ## Credits 🔴

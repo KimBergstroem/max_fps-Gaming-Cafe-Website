@@ -282,6 +282,10 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Booking.html](assets/images/readme/validation/image-validation.booking.png)
 * [style.css](assets/images/readme/validation/image-validation-stylesheet.png)
 
+#### Lighthouse Report
+
+![Lighthouse 100%](assets/images/readme/validation/image-lighthouse.png)
+
 
 ## Credits 🔴
 

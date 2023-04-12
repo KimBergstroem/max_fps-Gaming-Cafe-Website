@@ -4,10 +4,10 @@
     --clr-accent-dark: hsl(0, 72%, 56%);
     --clr-accent-light: hsl(353, 36%, 46%);
 
-    --clr-primary: hsl(220, 23%, 21%);
+    --clr-primary: hsl(221, 23%, 21%);
 
     --clr-neutral: hsl(214, 19%, 55%);
-    --clr-neutraldark: hsl(214, 23%, 46%);
+    --clr-neutraldark: hsl(213, 23%, 46%);
     --clr-neutral-white: hsl(0, 0%, 94%);
     --clr-neutral-black: hsl(0, 0%, 3%);
 }
@@ -321,6 +321,22 @@ Taken from my other project "Love Running"*/
     }
 }
 
+/* ---> Making the red line below the text <--- */
+.header-latestnews h2::before{
+    content: '';
+    position: absolute;
+    left: 50;
+    bottom: -10px;
+    background-color: var(--clr-accent-light);
+    height: 2px;
+    width: 13rem;
+}
+
+.even-columns div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
 /* Only for index.html home page main content */
 .button {
     cursor: pointer;
@@ -378,23 +394,105 @@ Taken from my other project "Love Running"*/
     color: var(--clr-neutral-white);
     text-transform: capitalize;
 }
+.even-columns img{
+    border-radius: .5rem;
+}
 
-/* ---> Making the red line below the text <--- */
-.header-latestnews h2::before{
-    content: '';
-    position: absolute;
-    left: 50;
-    bottom: -10px;
+/* Only for booking.html home page main content */
+.overview-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.overview-place img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.container-form {
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--clr-neutral-white);
+    border: 2px solid var(--clr-accent-light);
+    padding: 1.25rem;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    color: var(--clr-neutral-white);
+    border: 1px solid var(--clr-accent-light);
+    background-color: transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 0.75rem;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
     background-color: var(--clr-accent-light);
-    height: 2px;
-    width: 13rem;
+    color: var(--clr-neutral-white);
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--clr-neutral-white);
+    color: var(--clr-neutral-black);
+  }
+ 
+  ::placeholder {
+    color: var(--clr-neutral-white);
+  }
+
+  .seat {
+    background-color: var(--clr-neutral-black);
+    color: var(--clr-neutral-white);
+  }
+
+  .find-us {
+    border-radius: 5px;
+    background-color: var(--clr-accent-light);
+    color: var(--clr-neutral-white);
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+.hr{
+    border: 1px solid var(--clr-neutral-black);
 }
 
-.even-columns div img{
-    max-width: 100%;
-    max-height: 100%;
+.googlemap{
+    width: 100%;
 }
 
+.container-table{
+    display: flex;
+    justify-content: center;
+}
+
+.opening-hours td{
+    padding: 0 5px;
+}
+
+.contact-info{
+    display: flex;
+    flex: 2;
+    gap: 1rem;
+    justify-content: center;
+}
+
+ .opening-hours th {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
 /* ---> MAIN STYLE ENDS HERE <--- */
 
 

@@ -22,7 +22,7 @@
 
     <!-- Header section STARTS HERE -->
     <header>
-        <nav aria-label="Primary Navigation">
+        <nav aria-label="primary menu navigation">
             <div class="logo2">
                 <h1>Max_<span>FPS</span></h1>
             </div>
@@ -44,7 +44,7 @@
                 <li><a href="booking.html" class="active">Booking</a></li>
             </ul>
             <!-- Hambuger meny 3 lines -->
-            <label for="nav-toggle" class="nav-icon-burger">
+            <label for="nav-toggle" aria-label="menu" class="nav-icon-burger">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
@@ -56,7 +56,119 @@
 
     <!-- Main section STARTS HERE -->
     <main>
-        
+        <section>
+            <div class="container">
+                <div class="overview-place"><img src="assets/images/image-overview.png"
+                        alt="Overview Map over computer seats"></div>
+                <div class="even-columns">
+                    <div class="container-form">
+                        <h2>BOOK YOUR SEAT!</h2>
+                        <form action="https://formdump.codeinstitute.net/" aria-label="booking form" method="post"
+                            target="_blank">
+                            <label for="fname"></label>
+                            <input type="text" id="fname" name="firstname" aria-label="first name"
+                                placeholder="First name">
+
+                            <label for="lname"></label>
+                            <input type="text" id="lname" name="lastname" aria-label="last name"
+                                placeholder="Last name">
+
+                            <label for="uname"></label>
+                            <input type="text" id="uname" name="username" aria-label="username" placeholder="Username">
+
+                            <label for="seat">Seat</label>
+                            <select name="seat" aria-label="pick your computer seat">
+                                <option value="australia" class="seat">A1</option>
+                                <option value="australia" class="seat">A2</option>
+                                <option value="australia" class="seat">A3</option>
+                                <option value="australia" class="seat">A4</option>
+                                <option value="australia" class="seat">A5</option>
+                                <option value="australia" class="seat">A6</option>
+                                <option value="australia" class="seat">A7</option>
+
+                                <option value="australia" class="seat">B1</option>
+                                <option value="australia" class="seat">B2</option>
+                                <option value="australia" class="seat">B3</option>
+                                <option value="australia" class="seat">B4</option>
+                                <option value="australia" class="seat">B5</option>
+                                <option value="australia" class="seat">B6</option>
+                                <option value="australia" class="seat">B7</option>
+
+                                <option value="australia" class="seat">C1</option>
+                                <option value="australia" class="seat">C2</option>
+                                <option value="australia" class="seat">C3</option>
+                                <option value="australia" class="seat">C4</option>
+                                <option value="australia" class="seat">C5</option>
+                                <option value="australia" class="seat">C6</option>
+                                <option value="australia" class="seat">C7</option>
+
+                                <option value="australia" class="seat">D1</option>
+                                <option value="australia" class="seat">D2</option>
+                                <option value="australia" class="seat">D3</option>
+                                <option value="australia" class="seat">D4</option>
+                                <option value="australia" class="seat">D5</option>
+                                <option value="australia" class="seat">D6</option>
+                                <option value="australia" class="seat">D7</option>
+                            </select>
+
+                            <label for="subject"></label>
+                            <textarea id="subject" name="subject" aria-label="textarea for any request"
+                                placeholder="Any special request" style="height:150px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                    <div class="find-us">
+                        <div>
+                            <h2>FIND US</h2>
+                            <iframe class="googlemap"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.0463266712395!2d2.1788759158153232!3d41.394800279263485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e3c3724e17%3A0x2d328a6587fdce52!2sC%2F%20d&#39;Ausi%C3%A0s%20Marc%2C%2008013%20Barcelona!5e0!3m2!1ssv!2ses!4v1681251588198!5m2!1ssv!2ses"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Adress: C/ de Roger de Flor, 102, 08013 Barcelona</li>
+                                <li>Country: Spain</li>
+                                <li>Email: max_fps@gamingcenter.com</li>
+                                <li>Phone: +34 632 193 553</li>
+                                <br>
+                                <hr class="hr">
+                                <br>
+                            </ul>
+                            <h2>Opening hours</h2>
+                            <div class="container-table">
+                                <table class="opening-hours">
+                                    <tr>
+                                        <th></th>
+                                        <th>Open</th>
+                                        <th>Close</th>
+                                    </tr>
+                                    <tr>
+                                        <td class="open-day">Mon-Thurs</td>
+                                        <td>12:00pm</td>
+                                        <td>1:00am</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="open-day">Friday</td>
+                                        <td>12:00pm</td>
+                                        <td>6:00am</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="open-day">Saturday</td>
+                                        <td>12:00pm</td>
+                                        <td>6:00am</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="open-day">Sunday</td>
+                                        <td>14:00pm</td>
+                                        <td>1:00am</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- Main section ENDS HERE -->
 

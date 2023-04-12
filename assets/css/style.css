@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
+
+:root {
+    --clr-accent-dark: hsl(0, 72%, 56%);
+    --clr-accent-light: hsl(353, 36%, 46%);
+
+    --clr-primary: hsl(221, 23%, 21%);
+
+    --clr-neutral: hsl(214, 19%, 55%);
+    --clr-neutraldark: hsl(213, 23%, 46%);
+    --clr-neutral-white: hsl(0, 0%, 94%);
+    --clr-neutral-black: hsl(0, 0%, 3%);
+}
+
+/* Tips from this css reset https://andy-bell.co.uk/a-modern-css-reset/ */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+  }
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+html{
+    height: 100%;
+}
+
+/* Set core body defaults */
+body{
+    background: var(--clr-primary);
+    background-image: linear-gradient(to bottom right, #2b3446, #10131a);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Lato', sans-serif;
+    color: var(--clr-neutral-white);
+}
+
+p{
+    color: var(--clr-neutral-white);
+}
+
+
+/* ---> HEADER AND NAVBAR STYLE STARTS HERE <--- */
+.logo{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--clr-neutral-white);
+}
+.logo span {
+    color: var(--clr-accent-light);
+}
+.logo2{
+    display: none;
+}
+
+nav {
+	position: fixed;
+	z-index: 999;
+    width: 100%;
+    height: 65px;
+    padding: 0 5%;
+    margin: 0 auto;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.nav-primary {
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav .nav-primary a{
+	padding: 0.5em;
+	font-size: 0.8rem;
+    font-weight: bold;
+	color: var(--clr-neutral-white);
+}
+
+nav .nav-primary a:hover {
+	border-bottom: 1px solid var(--clr-neutral-white);
+}
+nav .nav-primary .active{
+	color: var(--clr-accent-light);
+}
+
+#nav-toggle {
+	position: absolute;
+	top: -100px;
+}
+
+nav .nav-icon-burger {
+	display: none;
+	position: absolute;
+	right: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+nav .nav-icon-burger .line {
+	width: 30px;
+	height: 5px;
+	background-color: var(--clr-neutral-white);
+	margin: 5px;
+	border-radius: 3px;
+	transition: all .3s ease-in-out;
+}
+
+/* Responsive  NAVBAR - Breakpoint at 800px */
+@media screen and (max-width: 50rem) {
+	nav .nav-primary {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 65px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: var(--clr-primary);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .nav-primary a {
+		font-size: 1.25rem;
+	}
+	nav :checked ~ .nav-primary {
+		bottom: 0;
+	}
+	nav .nav-icon-burger {
+		display: block;
+	}
+    nav .nav-icon-burger .line {
+		display: block;
+	}
+    /* Animation for the burger */
+	nav :checked ~ .nav-icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .nav-icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .nav-icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+
+    .logo{
+        display: none;
+    }
+
+	.logo2{
+        display: flex;
+        font-size: 2rem;
+        margin: 0 auto;
+        justify-content: center;
+        text-transform: uppercase;
+        color: var(--clr-neutral-white);
+    }
+    .logo2 span {
+        color: var(--clr-accent-light);
+    }
+}
+/* ---> HEADER AND NAVBAR STYLE ENDS HERE <--- */
+
+
+/* ---> MAIN STYLE STARTS HERE <--- */
+.main-content{
+    height:37.5rem;
+    width: 100%;
+    margin-top: 4rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-cover-text, .main-cover-text h2{
+    color: var(--clr-neutral-white);
+}
+
+.main-cover-text{
+    font-size: 130%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 18.75rem;
+    height: 9.375rem;
+    padding-top: 30px;
+    padding-left: 10px;
+    border-radius: .438rem;
+    background-color: var(--clr-accent-light);
+    background: linear-gradient(117deg, rgba(160,75,85,1) 0%, rgba(111,43,43,1) 100%);
+    bottom: 45px;
+    right: 150px;
+    position: absolute;
+}
+
+.main-image{
+    width: 100%;
+    height: 37.5rem;
+    background: 
+    url('../images/image-mainheader.jpg')
+    center / cover
+    no-repeat;
+
+    /* animates zoom effect to loading page 
+    Taken from my other project "Love Running"*/
+    animation-name: main-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width: 50rem){
+    .main-cover-text{
+            left: 0;
+        } 
+}
+/* Create the level of zoom for main image 
+Taken from my other project "Love Running"*/
+@keyframes main-zoom{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
+.container{
+    max-width: 73.125rem;
+    padding: 1.5rem;
+    margin-top: 5rem;
+    margin-inline: auto;
+}
+/* For the Game page Grid layout */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.625rem;
+    padding: 0.625rem;
+}
+.grid-container .col-item img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.even-columns{
+    display: grid;
+    gap: 1rem;
+}
+
+.even-columns div h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--clr-neutral);
+}
+.even-columns div h4{
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+    color: var(--clr-neutral-white);
+}
+
+.article{
+    letter-spacing: .05em
+}
+.article h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--clr-accent-light);
+}
+
+/* Breakpoint at 800px */
+@media (min-width: 50rem){
+    .even-columns{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
+
+/* ---> Making the red line below the text <--- */
+.header-latestnews h2::before{
+    content: '';
+    position: absolute;
+    left: auto;
+    bottom: -10px;
+    background-color: var(--clr-accent-light);
+    height: 2px;
+    width: 13rem;
+}
+
+.even-columns div img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* Only for index.html home page main content */
+.button {
+    cursor: pointer;
+    background-color: var(--clr-accent-dark);
+    color: var(--clr-neutral-white);
+    border-radius: 1rem;
+    font-weight: bold;
+    width: 12rem;
+    margin: 1rem 0;
+    padding: .2rem 0;
+    box-shadow: var(--clr-neutral-black) 0px 20px 30px -10px;
+}
+
+.button:hover {
+    background-color: var(--clr-neutral-white);
+    color: var(--clr-neutral-black);
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.card{
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-primary);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .438rem;
+    text-align: center;
+    box-shadow: 0px 1px 2px 0px rgba(20, 20, 20, 0.7),
+            1px 2px 4px 0px rgba(20, 20, 20, 0.7),
+            2px 4px 8px 0px rgba(20, 20, 20, 0.7),
+            2px 4px 16px 0px rgba(20, 20, 20, 0.7);
+}
+
+.card .highlight{
+    color: var(--clr-accent-light);
+}
+
+.card h2{
+    color:var(--clr-neutral-white);
+    font-size: 1.5rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.header-latestnews{
+    margin: 5rem 0 2rem 0;
+}
+
+.header-latestnews h2{
+    position: relative;
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 2rem;
+    color: var(--clr-neutral-white);
+    text-transform: capitalize;
+}
+.even-columns img{
+    border-radius: .5rem;
+}
+
+/* Only for booking.html home page main content */
+.overview-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.overview-place img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+.container-form {
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--clr-neutral-white);
+    border: 2px solid var(--clr-accent-light);
+    padding: 1.25rem;
+  }
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    color: var(--clr-neutral-white);
+    border: 1px solid var(--clr-accent-light);
+    background-color: transparent;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 0.75rem;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: var(--clr-accent-light);
+    color: var(--clr-neutral-white);
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: var(--clr-neutral-white);
+    color: var(--clr-neutral-black);
+  }
+ 
+  ::placeholder {
+    color: var(--clr-neutral-white);
+  }
+
+  .seat {
+    background-color: var(--clr-neutral-black);
+    color: var(--clr-neutral-white);
+  }
+
+  .find-us {
+    border-radius: 5px;
+    background-color: var(--clr-accent-light);
+    color: var(--clr-neutral-white);
+    text-align: center;
+    padding: 1.25rem;
+  }
+
+.hr{
+    border: 1px solid var(--clr-neutral-black);
+}
+
+.googlemap{
+    width: 100%;
+}
+
+.container-table{
+    display: flex;
+    justify-content: center;
+}
+
+.opening-hours td{
+    padding: 0 5px;
+}
+
+.contact-info{
+    display: flex;
+    flex: 2;
+    gap: 1rem;
+    justify-content: center;
+}
+
+ .opening-hours th {
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+/* ---> MAIN STYLE ENDS HERE <--- */
+
+
+/* ---> FOOTER STYLE STARTS HERE <--- */
+footer{
+    background-color: var(--clr-primary);
+    padding: 70px 0;
+    margin-top: auto;
+}
+
+.footer-container{
+	max-width: 73.125rem;
+	margin:auto;
+}
+
+.footer-row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 20%;
+    padding: 0 15px;
+}
+
+/* Target the only p element under my image col in footer */
+.footer-col > p {
+    font-size: .8rem;
+    text-align: center;
+    color: var(--clr-neutral);
+}
+
+.footer-col h4{
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 1.125rem;
+    color: var(--clr-neutral-white);
+    text-transform: capitalize;
+}
+
+.footer-col .footer-hours p {
+    color: var(--clr-neutral);
+    font-weight: bold;
+}
+.footer-col .footer-hours li {
+    margin-bottom: .5rem;
+}
+.footer-col .footer-hours span{
+    color: var(--clr-accent-light);
+    font-weight: bold;
+}
+
+/* ---> Making the red line below the text <--- */
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: var(--clr-accent-light);
+    height: 2px;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    display: block;
+    color: var(--clr-neutral);
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: var(--clr-neutral);
+    padding-left: 8px;
+}
+
+.footer-col .footer-social-links a{
+    display: inline-block;
+    color: var(--clr-neutral-white);
+    background-color: var(--clr-accent-light);
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    font-size: 1.25rem;
+    line-height: 40px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.footer-col .footer-social-links a:hover{
+    color: var(--clr-primary);
+    background-color: var(--clr-neutral-white);
+}
+
+/* Responsive FOOTER - Breakpoint at 800px */
+@media(max-width: 50rem){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .footer-row{
+        display:flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 10px;
+        width: 50%;
+    }
+}
+/* Breakpoint at 574px */
+@media(max-width: 35.875rem){
+    .footer-col{
+        width: 100%;
+        text-align: center;
+    }
+    .footer-col h4::before{
+        display: none;
+
+    }
+    
+}
+/* ---> FOOTER STYLE ENDS HERE <--- */
+
+

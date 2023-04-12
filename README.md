@@ -14,7 +14,8 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 ![GitHub language count](https://img.shields.io/badge/HTML%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
 ![GitHub top language](https://img.shields.io/badge/CSS%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
-![W3C Validation](https://img.shields.io/w3c-validation/html?color=blueviolet&targetUrl=https%3A%2F%2Fkera-cudmore.github.io%2FBully-Book-Club)
+![Language uses](https://img.shields.io/github/languages/count/kimbergstroem/PP1)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fkimbergstroem.github.io%2FPP1%2F)
 
 ---
 

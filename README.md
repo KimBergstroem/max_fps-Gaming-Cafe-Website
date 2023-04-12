@@ -14,6 +14,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 ![GitHub language count](https://img.shields.io/badge/HTML%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
 ![GitHub top language](https://img.shields.io/badge/CSS%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF)
+![GitHub top language]([https://img.shields.io/badge/CSS%20-%23A60000.svg?&style=for-the-badge&logo=Balsamiq&logoColor=FFFFFF](https://camo.githubusercontent.com/74837de6a05b9a1c4bc511f79c44c2b4eccb6ec8de382295e6cccbfbed1ac6f0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d61726b646f776e2d2532333030303030302e7376673f7374796c653d666c61743d6d61726b646f776e266c6f676f436f6c6f723d7768697465))
 ![Language uses](https://img.shields.io/github/languages/count/kimbergstroem/PP1)
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fkimbergstroem.github.io%2FPP1%2F)
 

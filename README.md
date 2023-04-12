@@ -274,7 +274,7 @@ Throughout the entire build, I conducted ongoing testing and utilized Chrome dev
 
 #### W3C Validator
 
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file. Click on the below links to have the validation. No error was found.
 
 * [Index.html](assets/images/readme/validation/image-validation-index.png)
 * [Aboutus.html](assets/images/readme/validation/image-validation-aboutus.png)

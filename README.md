@@ -157,7 +157,7 @@ Click on the links below to see an large seperated image of each page.
 
 [Booking Page](assets/images/wireframe/WireFrame-booking.png)
 
-[Mobile Version Desin](assets/images/wireframe/WireFrame-mobile.png)
+[Mobile Version Design](assets/images/wireframe/WireFrame-mobile.png)
 
 --- 
 

@@ -119,7 +119,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 We wanted to choose colours that reflected the environment of dark and gaming, so we have chosen a variety of grey, red and white for our site.
 
-This colors are going to be implemented as 60-30-10 rule with the base of the color GunMetal. We want to have a more dark theme on the website.
+These colors are going to be implemented as 60-30-10 rule with the base of the color GunMetal. We want to have a more dark theme on the website.
 
 The colour palette was created using the [Coolors website](https://coolors.co/aeffd8-8affc1-8fdc97-ac8887-9f4a54).
 
@@ -144,7 +144,7 @@ All the images displayed in this site was originelly downloaded by the sites bel
 
 ![Max_Fps Gaming Cafe Website Overview](assets/images/readme/OverviewPlanningReadme.png)
 
-Wireframes were created for mobile and desktop. I used the webbapplication called [Balsamiq](https://balsamiq.cloud/suu74na/psiivfn/r6B57) for creating the wireframes for website Max_Fps Gaming Cafe.
+Wireframes were created for mobile and desktop. I used the web application called [Balsamiq](https://balsamiq.cloud/suu74na/psiivfn/r6B57) for creating the wireframes for website Max_Fps Gaming Cafe.
 
 Click on the links below to see an large seperated image of each page.
 
@@ -165,7 +165,7 @@ Click on the links below to see an large seperated image of each page.
 
 ## Features 🔴
 
-The website is comprised of seven pages, four of which are accessible from the navigation menu (home page, about us page, games page & booking page). The last 3 pages are a "sign up", "log in" and "hours & pricing" which is shown in the navigation meny but cant access or use it. The "sign up " and "log in" pages are available becouse this requires another programming language along with a database which is not included into this project.
+The website is comprised of seven pages, four of which are accessible from the Navigation menu (home page, about us page, games page & booking page). The last 3 pages are a "sign up", "log in" and "hours & pricing" which is shown in the Navigation menu but cant access or use it. The "sign up " and "log in" pages are available becouse this requires another programming language along with a database which is not included into this project.
 
 * All Pages on the website have:
   * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is the two links for "sign up" and "Log in". In the middle of the navigation bar an image of Max_Fps logo.. To the right of the navigation bar are the links to the websites pages (home, about, games, pricing and booking). When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
@@ -201,13 +201,13 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 ### Languages Used 🔻
 
-Hyper Text Markup Language (HTML) and Cascading Style Sheets (CSS) were used to create this website.
+HyperText Markup Language (HTML) and Cascading Style Sheets (CSS) were used to create this website.
 
 ### Frameworks, Libraries & Programs Used 🔻
 
 [Balsamiq](https://balsamiq.cloud/) - Used to create wireframes.
 
-[Git](https://git-scm.com/) - For version control. Which my profiles hours was ended and i needed to upload the last commits by github, therfore my commit message and description isnt good enough at the end.
+[Git](https://git-scm.com/) - For version control. The hours were ended for my profile at GitPod and I was needed to upload the last commits/files by github, therfore my commit message and description wasn't good at the end.
 
 [Github](https://www.github.com/) - To save and store the files for the website.
 
@@ -306,7 +306,9 @@ To assess the website's performance, accessibility, best practices, and SEO, I e
 
 #### Contrast checker - WebAIM
 
+To check the color contrast ratio between foreground and background elements, ensuring that the website is accessible to all users, including those with visual impairments.
 
+![WebAIM 0 Contrast Errors](assets/images/readme/validation/image-webaim.png)
 
 #### Full Testing
 

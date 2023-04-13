@@ -50,6 +50,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
     * [How to Clone](#how-to-clone)
 
 * [Testing](#testing)
+  * [Functionality Testing](#Bugs)
   * [Bugs](#Bugs)
   * [Validation](#Validation)
 
@@ -67,12 +68,12 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 #### Key information for the site
 
 * What is the current Games available and what to play.
-* What are the opening hours and how to book a place for gaming.
+* Find information about the pricing and hours.
 * How to become a member and take part of the gaming community.
-* Be a part of tournaments, promotions, discount and events.
-* Contact information and were Max_Fps gaming cafe are.
+* Discover tournaments, promotions, discount and events.
+* Contact the company and to schedule a gaming experience or request more information.
 
-### User Stories
+### User Stories 🔻
 
 #### Client Goals
 
@@ -81,7 +82,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 * Continuously improve services and offerings based on customer feedback.
 * Offer special promotions, events and tournaments to enhance customer experiences.
 * Establish Max_FPS as a premier gaming destination in the city.
-* Increase visibility and awareness of the cafe to attract new customers in all ages, young as old people.
+* Create an interactive and user-friendly experience for all ages.
 
 #### First Time Visitor Goals
 
@@ -92,26 +93,18 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 #### Returning Visitor Goals
 
-* Feel comfortable and welcomed in the familiar and inviting atmosphere.
-* Feel safe and secure in the environment provided by the cafe.
-* Establish a sense of community with other gamers who are also regulars at the cafe.
-* Participate in gaming events or tournaments and meet other gamers with similar interests.
-* Collaborate with other gamers to play co-op games or to form teams for competitive play.
-* Engage in friendly competition and develop healthy rivalries with other regulars.
-* Create a sense of belonging and feel like part of the Max_FPS gaming community.
-* Share gaming knowledge and skills with other gamers, and learn from them in return.
-* Look forward to returning to Max_FPS as a place where they can both have fun and feel like they are part of a welcoming and inclusive community.
+* Find information about upcoming events or promotions.
+* View updates or changes to the business's services, products, or pricing.
+* Schedule additional appointments for gaming experience.
 
 #### Frequent Visitor Goals
 
 * Become an expert in their favorite games and challenge themselves to improve their skills.
-* Maintain and strengthen relationships with the staff and other regulars at the cafe.
 * Participate in gaming events or tournaments regularly and compete against other skilled gamers.
 * Collaborate with other gamers to form teams for competitive play, and strive for excellence together.
-* Help new visitors feel welcome and share their knowledge of the games and the cafe with others.
-* Continuously provide feedback to the cafe about their experiences and suggest ways to improve the offerings and services.
-* Take advantage of any loyalty programs or rewards offered by the cafe for frequent visitors.
-* Look forward to returning to Max_FPS as a place where they can both have fun and continue to grow their skills and relationships.
+* Continuously provide feedback about their experiences and suggest ways to improve the offerings and services.
+* Take advantage of any loyalty programs or rewards offered by the cafe for frequent visitors as members points and display in profile.
+
 
 <p align="right">(<a href="readme-top">back to top</a>)</p>
 
@@ -120,7 +113,7 @@ Whether you're a seasoned gamer or a newcomer to the world of computer games, Ma
 
 ## Design 🔴
 
-### Colour Scheme
+### Colour Scheme 🔻
 
 ![Max_Fps Gaming Cafe Website Colour Palette](assets/images/readme/colour-palette.png)
 
@@ -131,7 +124,7 @@ This colors are going to be implemented as 60-30-10 rule with the base of the co
 The colour palette was created using the [Coolors website](https://coolors.co/aeffd8-8affc1-8fdc97-ac8887-9f4a54).
 
 
-### Typography
+### Typography 🔻
 
 Google Fonts was used for the following fonts:
 
@@ -143,11 +136,11 @@ Google Fonts was used for the following fonts:
 
 ![PoppinsRegular400](assets/images/readme/PoppinsRegular400.png)
 
-### Imagery
+### Imagery 🔻
 
 All the images displayed in this site was originelly downloaded by the sites below, and modified in Photoshop.
 
-### Wireframes
+### Wireframes 🔻
 
 ![Max_Fps Gaming Cafe Website Overview](assets/images/readme/OverviewPlanningReadme.png)
 
@@ -172,21 +165,21 @@ Click on the links below to see an large seperated image of each page.
 
 ## Features 🔴
 
-The website is comprised of seven pages, four of which are accessible from the navigation menu (home page, about us page, games page & booking page). The last 3 pages are a "sign up", "log in" and "hours & pricing" which is shown in the navigation meny but cant access or use it.
+The website is comprised of seven pages, four of which are accessible from the navigation menu (home page, about us page, games page & booking page). The last 3 pages are a "sign up", "log in" and "hours & pricing" which is shown in the navigation meny but cant access or use it. The "sign up " and "log in" pages are available becouse this requires another programming language along with a database which is not included into this project.
 
 * All Pages on the website have:
   * A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is the two links for "sign up" and "Log in". In the middle of the navigation bar an image of Max_Fps logo.. To the right of the navigation bar are the links to the websites pages (home, about, games, pricing and booking). When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
   ![Navigation bar](assets/images/readme/image-navigationbar.png)
   ![Navigation bar](assets/images/readme/image-navhamburger.png)
 
-  * A footer which contains social media icon links to all the plattforms along with other importent links as companys policy and regulation. There is also an company logo which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable and attract more young audience. The footer is also including the opening hours as this information are crusial for the user experience. Important information are in the footer.
+  * A footer which contains social media icon links to all the plattforms along with other important links as companys policy and regulation. There is also an company logo which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable and attract more young audience. The footer is also including the opening hours as this information are crusial for the user experience. Important information are in the footer and everyone knows that. The "Support" section in my footer is not available at this moment. The links are not working. This is only for display purpose only.
   ![Footer bar](assets/images/readme/image-footer.png)
 
 * Future Implementations.
-  * Want to implement the "Sign up" function. Want to have a database were members can create membership and log in to have discounts, request points. Members should have their own profile, were they can see hours played etc.
+  * Want to implement the "Sign up" "log in" function. Want to have a database were members can create membership and log in to have discounts, promotion and to see their gaming profile. Members should have their own profile, were they can see hours played etc.
   * I want also to develop a more smoother booking system. Where the client/customer can see a map of all seats, computer available in the Gaming Cafe to click and book. Live updating booking system for better performance.
 
-### Accessibility
+### Accessibility 🔻
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
@@ -206,15 +199,15 @@ I have been mindful during coding to ensure that the website is as accessible fr
 ## Technologies Used 🔴
 
 
-### Languages Used
+### Languages Used 🔻
 
 Hyper Text Markup Language (HTML) and Cascading Style Sheets (CSS) were used to create this website.
 
-### Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used 🔻
 
 [Balsamiq](https://balsamiq.cloud/) - Used to create wireframes.
 
-[Git](https://git-scm.com/) - For version control.
+[Git](https://git-scm.com/) - For version control. Which my profiles hours was ended and i needed to upload the last commits by github, therfore my commit message and description isnt good enough at the end.
 
 [Github](https://www.github.com/) - To save and store the files for the website.
 
@@ -248,11 +241,8 @@ Github Pages was used to deploy the live website. The instructions to achieve th
 5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
 6. Click Save. Your live Github Pages site is now deployed at the URL shown.
 
-### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
-
-### Local Development
+### Local Development 🔻
 
 #### How to Fork
 
@@ -279,11 +269,23 @@ To clone the PP1 repository:
 
 ## Testing 🔴
 
-### Buggs
+### Functionality Testing 🔻
 
 Throughout the entire build, I conducted ongoing testing and utilized Chrome developer tools to identify and troubleshoot any issues as they arose.
 
-### Validation
+<br>
+
+### Buggs 🔻
+
+| Type   | Bugg                                                                                                                                                                                                                                                                                                                                           | Fixed                                                                                                                                                                                                                                                                                                                                                                    |
+|--------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Navbar | I cant get the company logo to be still visible after my responsive hamburgar takes the navbar. When the mediaquires kicks in and the navbar is displaying as hamburgar meny, my company logo are also inside the hamburgar meny after. I want my company logo to be displayed beside the hamburgar logo, not inside it with the navbar links. | I created another class with name "logo2", gave it a declaration off "diplay: none:" while in the mediaquires the class "logo2" was declared to "display: block" and property "position" with value "absolute". Then the company logo is displayed when my hamburger meny is kicked in and when it isnt, my class "logo" will display the normal company logo as normal. |
+| Navbar | "Element div not allowed as child of element label in this context. (Suppressing further errors from this subtree.)"                                                                                                                                                                                                                           | The solution was to put a "span" attribute instead of div and then give the span attribute a declaration of "display: block;"                                                                                                                                                                                                                                            |
+| Footer | Need to display columns and centered in mobile version.                                                                                                                                                                                                                                                                                        | Fixed it with media queries and use of flex and "flex-wrap: warp;"                                                                                                                                                                                                                                                                                                       |
+| Footer | How to get the footer content stuck at the bottom of the page on all pages excluding the content on the pages.                                                                                                                                                                                                                                 | This was fixed by setting the declaration "margin: auto;" to the footer element along with declaring in the html selector "height: 100%" and in the body selector "min-height: 100vh".                                                                                                                                                                                   |
+<br>
+
+### Validation 🔻
 
 
 #### W3C Validator
@@ -302,9 +304,13 @@ To assess the website's performance, accessibility, best practices, and SEO, I e
 
 ![Lighthouse 90%](assets/images/readme/validation/image-lighthouse.png)
 
+#### Contrast checker - WebAIM
+
+
+
 #### Full Testing
 
-Friends and family were enlisted to conduct further tests on different devices and screen sizes, and they reported no problems during testing.
+Further testing was conducted by friends and family members using a range of devices and screen sizes. I'd like to extend my heartfelt gratitude to them for going the extra mile in testing the website thoroughly for me. No issue rapported.
 
 <p align="right">(<a href="readme-top">back to top</a>)</p>
 
@@ -312,27 +318,36 @@ Friends and family were enlisted to conduct further tests on different devices a
 
 ## Credits 🔴
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
+I'm grateful to Code Institute for equipping me with the education and resources necessary to improve my HTML and CSS skills. Their lessons have been essential in my understanding of the basic principles of web development.
 
-### Code Used
+### Code Used 🔻
 
-* I used this YouTube tutorial to learn how to create and play with the responsiveness of a website along with otherstuff as hover effect.
+I used this YouTube channel to learn about, how to create and play with the responsiveness of a website along with flex/grid layouts [Kevin Powell](https://www.youtube.com/@KevinPowell)
 
-[Kevin Powell](https://www.youtube.com/@KevinPowell)
+Instructions and information about "forms" I have gotten from [W3 Schools](https://www.w3schools.com/css/css_form.asp)
 
-### Content
+Navigation setup was from [W3 Schools](https://www.w3schools.com/css/css_form.asp) and [Kevin Powell](https://www.youtube.com/@KevinPowell)
 
-More information will come, but for now im the only one writing the code.
+Used this website to create gradient backgrounds, that are used in the webpage [CSS Gradient](https://cssgradient.io)
 
-###  Media
+### Content 🔻
 
-More informaiton will come.
+Paragraphs / text for the webpage was written together with [ChatGPT](https://chat.openai.com/)
+
+Tips and inspiration on how to create a better readme.md file [kera-cudmore powerpoint](https://docs.google.com/presentation/d/19_7r_To5bu7UjnZD87hrzWQi63Ij0YpaRH1XFnPZZe8/edit#slide=id.g35f391192_00)
+
+###  Media 🔻
+
+The photos used throughout the webpage is coming from [Unsplash](https://unsplash.com/).
+
+The game photos that are used for display purpose only in my game page are coming from [interfaceingame](https://interfaceingame.com/games/) "*Don't possess any form of license towards the game displayed*"
   
-###  Acknowledgments
+###  Acknowledgments 🔻
 
-More information will come, when my project are finished.
+I'd like to give recognition to the individuals who supported me in finishing this project:
 
-* [Naoise Ganney](https://github.com/NaoiseGaffney), my Code Institute Mentor.
+* I'd like to express my appreciation to my family for their patience and helping me spot spell mistakes and testing issues.
+* [Naoise Gaffney](https://github.com/NaoiseGaffney), my Code Institute Mentor.
 
 <p align="right">(<a href="readme-top">back to top</a>)</p>
 

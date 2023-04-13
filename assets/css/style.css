@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
 
 :root {
-    --clr-accent-dark: hsl(0, 72%, 56%);
-    --clr-accent-light: hsl(353, 36%, 46%);
+    --clr-accent-dark: hsl(0, 71%, 48%);
+    --clr-accent-light: hsl(0, 96%, 70%);
 
     --clr-primary: hsl(221, 23%, 21%);
 
-    --clr-neutral: hsl(214, 19%, 55%);
-    --clr-neutraldark: hsl(213, 23%, 46%);
+    --clr-neutral: hsl(209, 22%, 62%);
+    --clr-neutraldark: hsl(212, 23%, 46%);
     --clr-neutral-white: hsl(0, 0%, 94%);
     --clr-neutral-black: hsl(0, 0%, 3%);
 }
@@ -90,9 +90,11 @@ p{
     text-transform: uppercase;
     color: var(--clr-neutral-white);
 }
+
 .logo span {
     color: var(--clr-accent-light);
 }
+
 .logo2{
     display: none;
 }
@@ -101,7 +103,7 @@ nav {
 	position: fixed;
 	z-index: 999;
     width: 100%;
-    height: 65px;
+    height: 4.063rem;
     padding: 0 5%;
     margin: 0 auto;
 	background-color: rgba(0,0,0,0.3);
@@ -123,6 +125,7 @@ nav .nav-primary a{
 nav .nav-primary a:hover {
 	border-bottom: 1px solid var(--clr-neutral-white);
 }
+
 nav .nav-primary .active{
 	color: var(--clr-accent-light);
 }
@@ -141,78 +144,19 @@ nav .nav-icon-burger {
 }
 
 nav .nav-icon-burger .line {
-	width: 30px;
-	height: 5px;
+	width: 1.875rem;
+	height: .313rem;
 	background-color: var(--clr-neutral-white);
-	margin: 5px;
+	margin: .313rem;
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
-}
-
-/* Responsive  NAVBAR - Breakpoint at 800px */
-@media screen and (max-width: 50rem) {
-	nav .nav-primary {
-		float: none;
-		position: fixed;
-		z-index: 9;
-		left: 0;
-		right: 0;
-		top: 65px;
-		bottom: 100%;
-		width: auto;
-		height: auto;
-		flex-direction: column;
-		justify-content: space-evenly;
-		background-color: var(--clr-primary);
-		overflow: hidden;
-		box-sizing: border-box;
-		transition: all .5s ease-in-out;
-	}
-	nav .nav-primary a {
-		font-size: 1.25rem;
-	}
-	nav :checked ~ .nav-primary {
-		bottom: 0;
-	}
-	nav .nav-icon-burger {
-		display: block;
-	}
-    nav .nav-icon-burger .line {
-		display: block;
-	}
-    /* Animation for the burger */
-	nav :checked ~ .nav-icon-burger .line:nth-child(1) {
-		transform: translateY(10px) rotate(225deg);
-	}
-	nav :checked ~ .nav-icon-burger .line:nth-child(3) {
-		transform: translateY(-10px) rotate(-225deg);
-	}
-	nav :checked ~ .nav-icon-burger .line:nth-child(2) {
-		opacity: 0;
-	}
-
-    .logo{
-        display: none;
-    }
-
-	.logo2{
-        display: flex;
-        font-size: 2rem;
-        margin: 0 auto;
-        justify-content: center;
-        text-transform: uppercase;
-        color: var(--clr-neutral-white);
-    }
-    .logo2 span {
-        color: var(--clr-accent-light);
-    }
 }
 /* ---> HEADER AND NAVBAR STYLE ENDS HERE <--- */
 
 
 /* ---> MAIN STYLE STARTS HERE <--- */
 .main-content{
-    height:37.5rem;
+    height: 37.5rem;
     width: 100%;
     margin-top: 4rem;
     overflow: hidden;
@@ -254,11 +198,6 @@ nav .nav-icon-burger .line {
     animation-fill-mode: forwards;
 }
 
-@media(max-width: 50rem){
-    .main-cover-text{
-            left: 0;
-        } 
-}
 /* Create the level of zoom for main image 
 Taken from my other project "Love Running"*/
 @keyframes main-zoom{
@@ -276,6 +215,7 @@ Taken from my other project "Love Running"*/
     margin-top: 5rem;
     margin-inline: auto;
 }
+
 /* For the Game page Grid layout */
 .grid-container{
     display: grid;
@@ -283,11 +223,11 @@ Taken from my other project "Love Running"*/
     gap: 0.625rem;
     padding: 0.625rem;
 }
+
 .grid-container .col-item img:hover{
     opacity: 0.5;
     cursor: pointer;
 }
-
 
 .even-columns{
     display: grid;
@@ -299,6 +239,7 @@ Taken from my other project "Love Running"*/
     margin-bottom: 1rem;
     color: var(--clr-neutral);
 }
+
 .even-columns div h4{
     font-size: 1.4rem;
     margin-bottom: .5rem;
@@ -308,18 +249,11 @@ Taken from my other project "Love Running"*/
 .article{
     letter-spacing: .05em
 }
+
 .article h2{
     font-size: 2rem;
     margin-bottom: 1rem;
     color: var(--clr-accent-light);
-}
-
-/* Breakpoint at 800px */
-@media (min-width: 50rem){
-    .even-columns{
-        grid-auto-flow: column;
-        grid-auto-columns: 1fr;
-    }
 }
 
 /* ---> Making the red line below the text <--- */
@@ -329,7 +263,7 @@ Taken from my other project "Love Running"*/
     left: auto;
     bottom: -10px;
     background-color: var(--clr-accent-light);
-    height: 2px;
+    height: .125rem;
     width: 13rem;
 }
 
@@ -394,6 +328,7 @@ Taken from my other project "Love Running"*/
     color: var(--clr-neutral-white);
     text-transform: capitalize;
 }
+
 .even-columns img{
     border-radius: .5rem;
 }
@@ -419,18 +354,18 @@ Taken from my other project "Love Running"*/
     color: var(--clr-neutral-white);
     border: 2px solid var(--clr-accent-light);
     padding: 1.25rem;
-  }
+}
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: .75rem;
     color: var(--clr-neutral-white);
     border: 1px solid var(--clr-accent-light);
     background-color: transparent;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
-    margin-bottom: 0.75rem;
+    margin-bottom: .75rem;
     resize: vertical;
   }
   
@@ -463,7 +398,7 @@ input[type=text], select, textarea {
     color: var(--clr-neutral-white);
     text-align: center;
     padding: 1.25rem;
-  }
+}
 
 .hr{
     border: 1px solid var(--clr-neutral-black);
@@ -492,7 +427,7 @@ input[type=text], select, textarea {
  .opening-hours th {
     letter-spacing: .1em;
     text-transform: uppercase;
-  }
+}
 /* ---> MAIN STYLE ENDS HERE <--- */
 
 
@@ -537,9 +472,11 @@ footer{
     color: var(--clr-neutral);
     font-weight: bold;
 }
+
 .footer-col .footer-hours li {
     margin-bottom: .5rem;
 }
+
 .footer-col .footer-hours span{
     color: var(--clr-accent-light);
     font-weight: bold;
@@ -552,18 +489,20 @@ footer{
     left:0;
     bottom: -10px;
     background-color: var(--clr-accent-light);
-    height: 2px;
-    width: 50px;
+    height: .125rem;
+    width: 3.125rem;
 }
 
 .footer-col ul li:not(:last-child){
     margin-bottom: 10px;
 }
+
 .footer-col ul li a{
     display: block;
     color: var(--clr-neutral);
     transition: all 0.3s ease;
 }
+
 .footer-col ul li a:hover{
     color: var(--clr-neutral);
     padding-left: 8px;
@@ -573,8 +512,8 @@ footer{
     display: inline-block;
     color: var(--clr-neutral-white);
     background-color: var(--clr-accent-light);
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
     margin: 0 10px 10px 0;
     text-align: center;
     font-size: 1.25rem;
@@ -582,9 +521,84 @@ footer{
     border-radius: 50%;
     transition: all 0.5s ease;
 }
+
 .footer-col .footer-social-links a:hover{
     color: var(--clr-primary);
     background-color: var(--clr-neutral-white);
+}
+/* ---> FOOTER STYLE ENDS HERE <--- */
+
+
+/*RESPOSNSIVE SECTION START HERE */
+/* Responsive  NAVBAR - Breakpoint at 800px */
+@media screen and (max-width: 50rem) {
+	nav .nav-primary {
+		float: none;
+		position: fixed;
+		z-index: 9;
+		left: 0;
+		right: 0;
+		top: 65px;
+		bottom: 100%;
+		width: auto;
+		height: auto;
+		flex-direction: column;
+		justify-content: space-evenly;
+		background-color: var(--clr-primary);
+		overflow: hidden;
+		box-sizing: border-box;
+		transition: all .5s ease-in-out;
+	}
+	nav .nav-primary a {
+		font-size: 1.25rem;
+	}
+	nav :checked ~ .nav-primary {
+		bottom: 0;
+	}
+	nav .nav-icon-burger {
+		display: block;
+	}
+    nav .nav-icon-burger .line {
+		display: block;
+	}
+    /* Animation for the burger */
+	nav :checked ~ .nav-icon-burger .line:nth-child(1) {
+		transform: translateY(10px) rotate(225deg);
+	}
+	nav :checked ~ .nav-icon-burger .line:nth-child(3) {
+		transform: translateY(-10px) rotate(-225deg);
+	}
+	nav :checked ~ .nav-icon-burger .line:nth-child(2) {
+		opacity: 0;
+	}
+    .logo{
+        display: none;
+    }
+	.logo2{
+        display: flex;
+        font-size: 2rem;
+        margin: 0 auto;
+        justify-content: center;
+        text-transform: uppercase;
+        color: var(--clr-neutral-white);
+    }
+    .logo2 span {
+        color: var(--clr-accent-light);
+    }
+}
+
+/* Breakpoint at 800px */
+@media (min-width: 50rem){
+    .even-columns{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+}
+
+@media(max-width: 50rem){
+    .main-cover-text{
+            left: 0;
+        } 
 }
 
 /* Responsive FOOTER - Breakpoint at 800px */
@@ -601,6 +615,7 @@ footer{
         width: 50%;
     }
 }
+
 /* Breakpoint at 574px */
 @media(max-width: 35.875rem){
     .footer-col{
@@ -609,10 +624,8 @@ footer{
     }
     .footer-col h4::before{
         display: none;
-
-    }
-    
+    }  
 }
-/* ---> FOOTER STYLE ENDS HERE <--- */
+/*RESPOSNSIVE SECTION ENDS HERE */
 
 

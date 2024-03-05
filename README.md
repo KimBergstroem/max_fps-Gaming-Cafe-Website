@@ -343,13 +343,17 @@ Tips and inspiration on how to create a better readme.md file [kera-cudmore powe
 The photos used throughout the webpage is coming from [Unsplash](https://unsplash.com/).
 
 The game photos that are used for display purpose only in my game page are coming from [interfaceingame](https://interfaceingame.com/games/) "*Don't possess any form of license towards the game displayed*"
-  
+ 
 ###  Acknowledgments 🔻
 
 I'd like to give recognition to the individuals who supported me in finishing this project:
 
 * I'd like to express my appreciation to my family for their patience and helping me spot spell mistakes and testing issues.
 * [Naoise Gaffney](https://github.com/NaoiseGaffney), my Code Institute Mentor.
+
+### License 🔻
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 <p align="right">(<a href="readme-top">back to top</a>)</p>
 
